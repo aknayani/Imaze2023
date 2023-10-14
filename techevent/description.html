@@ -1,0 +1,2105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <link rel="stylesheet" href="codeblitz.css">
+    <script src="./script.js" async></script>
+    
+    <title>description</title>
+</head>
+<body>
+      <!-- navbar -->
+      <header class="head">
+        <div class="logo">
+          <a href="../index.html"><img src="../Horizontal - White.png" alt="logo"></a>
+        </div>
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <nav class="navbars" >
+          <a href="../index.html"><span class="nl home" >Home</span></a>
+          <a href="../tech.html"><span class="nl tech" >Tech</span></a>
+          <a href="../non-tech.html"><span class="nl non-tech">Non-Tech</span></a>
+          <a href="../flagship.html"><span class="nl flagship" >Flagship</span></a>
+          <a href="../workshop.html"><span class="nl workshop" >Workshops</span></a>
+          <a href="../cultural.html"><span class="nl cultural">Cultural</span></a>
+          <a href="../team.html" ><span class="nl team">Team</span></a>
+        </nav>
+      </header>
+
+      <div class="con">
+        <div>
+            <div class="video-container">
+              <video autoplay muted loop id="background-video">
+                  <source src="../back.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+      </div>
+     <div class="component">
+        <div class="scrollable-content">
+           
+        </div>
+     </div>
+     <script src="../script.js"></script>
+     <script src="../api.json"></script>
+     <script async>
+      let current_url = window.location.href;
+      let event_id = current_url.split('?')[1];
+      console.log(event_id)
+      const jsonData = [
+   
+          {
+          
+          "_id": "65238f5173a2bd13180db1d1",
+          
+          "name": "Engineer's Premier League",
+         
+          "description": "This event dares every student irrespective of domain to test your knowledge as well as your leadership acumen. Round 1 consists of department-specific questions, points earned of which will act as your profile. As top scorers of each category will bid on qualified students to make up a diverse team using virtual coins provided.\n• Round 1: \n   1. Paper-based MCQ test (Category wise)\n   2. The top scorer will be termed as captain from each category.\n   3. Tie breaker questions which will be time-based in case of tie\n• Round 2: \n   1. 25 students will qualify for round 2(5 from each category including captains)\n   2. Captains will be given 1000 points to buy 4 more players.\n• Round 3: Each team will be given a common set of interlinked 5 questions to solve(paper-based, rough paper will be provided)\n   Categories: \n      1)CP/IT/IoT/CSD\n      2)EC/MC/EE\n      3)CIVIL\n      4)CHEMICAL\n      5)MECHANICAL",
+          
+          },
+          {
+          
+          "_id": "65238f5173a2bd13180db1d0",
+         
+          "name": "Chemquest",
+          
+          "description": "Join the ultimate challenge in our group event featuring 3 intense rounds with 3 members in each team. Dive into technical games filled with excitement, where scores determine your fate! Follow our guidelines, register as a team of 3, or form one on the spot. In Round 2, Click-o-Chem, teams race to find elements and snap photos, while Round 3, Who-Am-I, tests your chemical knowledge. Will your team triumph in this thrilling competition?\nJoin the ultimate challenge in our group event featuring 3 intense rounds with 3 members in each team. Dive into technical games filled with excitement, where scores determine your fate! Follow our guidelines, register as a team of 3, or form one on the spot. In Round 2, Click-o-Chem, teams race to find elements and snap photos, while Round 3, Who-Am-I, tests your chemical knowledge. Will your team triumph in this thrilling competition?\n\nThe event unfolds in three engaging rounds:\n    1. Guess-O-Chem: Teams will select a chit and depict the word on it via drawings on a whiteboard within 1 minute, without using words or actions. Multiple rounds will be conducted, and the team with the highest correct answers wins. In case of a tie, the team with the shorter completion time prevails.\n    2. Click-o-Chem: It is a 15-minute event with assigned volunteers for each team. Teams hunt and photograph specified elements/compounds displayed via a projector around the campus and sent them to their respective volunteers. The first team to complete the task, or, if tied, the one with the most photos, wins. In the case of a tie, the winner is determined by the time of the last sent photograph.\n    3. Who-Am-I?: Teams are presented with an unknown salt and a guide booklet, along with necessary equipment. They must identify the salt through chemical tests following the booklet's instructions. The first team to successfully identify the salt wins this round.\n",
+          
+          },
+          {
+          "isDiploma": false,
+          "event_type": "NORMAL",
+          "event_coordinator": [
+          {
+          "name": " Dhyana Soni",
+          "phoneno": "94087 89617"
+          },
+          {
+          "name": " Mit Swadas",
+          "phoneno": "6353400959 "
+          }
+          ],
+          "participants": [
+          "65279f669219afc38504b011",
+          "65280272a06ff693c9821fdf",
+          "652925f6a06ff693c9830b39"
+          ],
+          "winner": [],
+          "attendance": [],
+          "isAvailable": true,
+          "noOfParticipants": 3,
+          "_id": "65238f5173a2bd13180db1d2",
+          "category": "Tech",
+          "name": "Tech Treasure",
+          "image": "https://imaze-bucket.s3.ap-south-1.amazonaws.com/imaze_static_images/tech+treasure.jpg",
+          "date": "15-12-2023",
+          "time": "10:00",
+          "price": 80,
+          "description": "Get ready for 'Tech Treasure,' a dynamic treasure hunt event hosted by third-year CP department students. In this high-energy competition, teams of 4 will face three rounds challenging their problem-solving, teamwork, and tech skills.\n• Round 1 \n   1. Throw a dart to choose a question and answer the question.\n   2. Three categories of questions will be placed on the dart board: easy, medium, and hard.\n   3. Maximum correct answers in the least amount of time go to the next round within the dart limit.\n• Round 2\n   1. This round consists of guessing a technical word or an object from the given clues from 4 pictures related to the theme of the object.\n• Round 3\n   1. Tech treasure hunt where clues will be from different domains and teams have to decode them and find the treasure, the first team to find the treasure wins.\n ",
+          "venue": "A120, D208, G306 and Street 3",
+          "totalwinners": 2,
+          "type": "SOLO",
+          "maxparticipants": 200,
+          "title": "Get ready for an electrifying adventure in the digital realm! Introducing 'Tech Treasure', an exhilarating treasure hunt event powered by students of third year CP department.",
+          "__v": 0
+          },
+          {
+          "isDiploma": false,
+          "event_type": "NORMAL",
+          "event_coordinator": [
+          {
+          "name": " Darshan Vasani",
+          "phoneno": "8141625502"
+          },
+          {
+          "name": " Riddhi Padia",
+          "phoneno": "9106437816"
+          }
+          ],
+          "participants": [
+          "652647ec9219afc38503d3b9",
+          "652648be9219afc38503d50c",
+          "652647bb9219afc38503d3b2",
+          "652796799219afc385049afc",
+          "6525207ed5b4792b964c6d9a",
+          "6528209ca06ff693c98258e1",
+          "65267f149219afc385040a77",
+          "6528d954a06ff693c9829cac",
+          "6524fdef710f750837f78e00"
+          ],
+          "winner": [],
+          "attendance": [],
+          "isAvailable": true,
+          "noOfParticipants": 9,
+          "_id": "65238f5173a2bd13180db1d4",
+          "category": "Tech",
+          "name": "Crafting Quest",
+          "image": "https://imaze-bucket.s3.ap-south-1.amazonaws.com/imaze_static_images/crafting_quest.jpg",
+          "date": "13-12-2023",
+          "time": "14:00",
+          "price": 80,
+          "description": "Prepare for an exhilarating adventure at 'Crafting Quest: A Journey from Mystery to Masterpiece'! This multi-disciplinary challenge invites teams of three to solve mind-bending riddles and unleash their creativity in crafting a mystery model. With limited time and boundless imagination, participants will race against the clock to turn their ideas into masterpieces.\nThe event comprises two rounds:\n    1. Riddle Challenge: Teams of three participate in the initial round, solving riddles from sealed envelopes to gather the crafting items. They have three attempts and a three-minute limit per question. The top 10 fastest teams proceed to the second round.\n    2. Model Crafting: Teams will receive a problem statement and will have 3 minutes to discuss it and decide on the materials they need. One member from each team will volunteer to fetch up to 8 materials from another room within 1 minute. They must then create a model within 120 minutes using these materials, and their performance will be judged based on the quality and innovation of their model.",
+          "venue": "A321, A322 and A323",
+          "totalwinners": 2,
+          "type": "SOLO",
+          "maxparticipants": 120,
+          "title": "From unraveling riddles to crafting masterpieces, embark on an unforgettable creative problem-solving adventure!",
+          "__v": 0
+          },
+          {
+          "isDiploma": false,
+          "event_type": "NORMAL",
+          "event_coordinator": [
+          {
+          "name": "Pawan Jethwa",
+          "phoneno": "8866482385"
+          },
+          {
+          "name": "Neel Patel",
+          "phoneno": "7359266967"
+          }
+          ],
+          "participants": [],
+          "winner": [],
+          "attendance": [],
+          "isAvailable": true,
+          "noOfParticipants": 0,
+          "_id": "65238f5173a2bd13180db1d3",
+          "category": "Tech",
+          "name": "Car Soccer",
+          "image": "https://imaze-bucket.s3.ap-south-1.amazonaws.com/imaze_static_images/CarSoccer.JPG",
+          "date": "13-12-2023",
+          "time": "11:00",
+          "maxparticipants": 32,
+          "price": 300,
+          "description": "Rev up your engines for an exhilarating team event! Compete in a thrilling soccer challenge where participants build and drive their own remote-controlled cars. Show off your engineering skills, navigate obstacles, and aim for goals in this high-energy competition. With teams of up to 4 members, it's a test of creativity and strategy. Join the excitement, and drive your team to victory in this intense car soccer challenge!\nThe event will be a team event conducted in 1 round(Elimination) consisting of a maximum 4 members in each group. Participants are required to build their own specially designed remote-controlled cars using a DIY kit of their choice. It's a test of your engineering and creative skills!\n1) Match Rules:\n  • Maximum 4 members are allowed in a team.(Single and team participation is allowed.)\n  • Only one car is allowed per team.\n  • If the damage is done intentionally, the following team will be disqualified.\n  • Referee's decision would be the final decision.\n2) Car Rules:\n  • Participant need to bring their own DIY Car.\n  • The dimension of car should not exceed 25X18 cm. with a height of 10cm.\n  • Ready-made car is not allowed to compete.\n  • No sharp mounts are allowed in the car.\n  • Grabbers are not allowed to mount on the car.",
+          "venue": "Lawn 2",
+          "totalwinners": 2,
+          "type": "GROUP",
+          "title": "Where tech meets turf in the ultimate car soccer showdown. Score goals, drive innovation at our electrifying car soccer tech event.",
+          "__v": 0,
+          "max_members": 4,
+          "min_members": 1
+          },
+          {
+          "isDiploma": false,
+          "event_type": "NORMAL",
+          "event_coordinator": [
+          {
+          "name": "Yash Rathod",
+          "phoneno": "7984644278"
+          },
+          {
+          "name": "Chirag Singh",
+          "phoneno": "9313492243"
+          }
+          ],
+          "participants": [
+          "6525207ed5b4792b964c6d9a",
+          "6528209ca06ff693c98258e1",
+          "65267f149219afc385040a77",
+          "6528d954a06ff693c9829cac",
+          "6524fdef710f750837f78e00"
+          ],
+          "winner": [],
+          "attendance": [],
+          "isAvailable": true,
+          "noOfParticipants": 5,
+          "_id": "65238f5173a2bd13180db1d5",
+          "category": "Tech",
+          "name": "Egg Armor Challenge",
+          "image": "https://imaze-bucket.s3.ap-south-1.amazonaws.com/imaze_static_images/egg+armour.jpg",
+          "date": "14-12-2023",
+          "time": "12:00",
+          "price": 80,
+          "description": "This Ultimate Egg-Drop Challenge puts creativity, engineering skills, and teamwork to the test. Teams of three will face three progressively challenging rounds, each requiring them to design a protective case for an egg that can withstand a heart-pounding drop from increasing heights within the college building.\nIt unravels into 3 rounds:\n  • Round 1: Teams will be tasked with crafting a sturdy egg case and dropping it from the first floor. Success on the first attempt earns the team 10 points, while those succeeding on their second attempt receive 5 points. Teams unable to protect their egg in either attempt won't earn any points.\n  • Round 2: The challenge takes up a notch, with drops from the second floor. Teams that succeed on their first try are rewarded with 20 points, while those succeeding on their second attempt earn 10 points. Those unable to safeguard their egg in both attempts miss out on points.\n  • Round 3: will push teams to their limits with drops from the third floor. Success on the first attempt in this round will yield a whopping 30 points, while those succeeding on the second attempt earn 15 points. Once again, teams failing in both attempts won't receive any points.\nGeneral guidelines:\n  1. They are required to make their own egg case in a group of 3 members.\n  2. Egg will be provided\n  3. They have to bring their own material for the egg case. no material will be provided by us.\n  4. They have to build the egg case in the event itself so if the case is made at home then it will not be considered\n  5. Before each round, teams have the opportunity to modify their egg cases to enhance their chances of success.\n",
+          "venue": "lawn-2",
+          "totalwinners": 2,
+          "type": "SOLO",
+          "maxparticipants": 30,
+          "title": "Gravity's Challenge: Nest the Egg, Beat the Drop! Race to safeguard your egg as it faces the towering trials of three formidable floors.",
+          "__v": 0
+          },
+          {
+          "isDiploma": false,
+          "event_type": "NORMAL",
+          "event_coordinator": [
+          {
+          "name": " Kushal Sawhney",
+          "phoneno": "9558460269"
+          },
+          {
+          "name": "Sania Pillai",
+          "phoneno": "9998315385"
+          }
+          ],
+          "participants": [],
+          "winner": [],
+          "attendance": [],
+          "isAvailable": true,
+          "noOfParticipants": 0,
+          "_id": "65238f5173a2bd13180db1d6",
+          "category": "Tech",
+          "name": "Purble Place",
+          "image": "https://imaze-bucket.s3.ap-south-1.amazonaws.com/imaze_static_images/purble+place.jpg",
+          "date": "14-12-2023",
+          "time": "09:00",
+          "price": 60,
+          "description": "Experience the perfect fusion of fun gaming and scientific knowledge in our team-based challenge! Gather your team of three and dive into a unique event where chemistry meets excitement. Participants will face various tasks testing their chemistry knowledge, creativity, and teamwork. Be prepared for unexpected twists and challenges, all while racing against the clock. \nThe event unfolds in three rounds:\n  • Bingo: Teams of three members must register for the event. Participants will receive pamphlets with the names of elements from the periodic table in the form of bingo. A volunteer will ask chemistry-based questions to all the teams, and if they know the answer, they should mark the corresponding elements on the provided sheets. Teams that complete marking all elements first must press the buzzer. The team with the maximum correctly marked elements will qualify for the next round.\n  • Element-O-Jumble: Round 2 involves a challenge where one side of the blackboard will have questions, and the other side will have the corresponding answers, both hidden and randomized. Teams will need to pick a question chit and then find the corresponding answer chit from the other side. The team that successfully solves the maximum number of chits within the given time will qualify for the next round.\n  • Chemi-bounce: In this round, one member from each group will be equipped with ping-pong balls, which they must throw into water cups in front of them. The number of successful throws determines the number of chemistry-related puzzles or questions they receive. The team that will be able to complete the task in the least amount of time will be the winner.\n",
+          "venue": "A221 and A224",
+          "totalwinners": 2,
+          "type": "SOLO",
+          "maxparticipants": 40,
+          "title": "'Purble Place' where Gaming and Science melds into a thrilling Quest. Teams, buzzers, Time Limits, and Brainpower - The Battle for Gaming Supremacy.",
+          "__v": 0
+          },
+          {
+          "isDiploma": false,
+          "event_type": "NORMAL",
+          "event_coordinator": [
+          {
+          "name": "Bhavya Barai",
+          "phoneno": "9687582227"
+          },
+          {
+          "name": " Karan Shah",
+          "phoneno": "9687573721"
+          }
+          ],
+          "participants": [],
+          "winner": [],
+          "attendance": [],
+          "isAvailable": true,
+          "noOfParticipants": 0,
+          "_id": "65238f5173a2bd13180db1d7",
+          "category": "Tech",
+          "name": "Revpursuit",
+          "image": "https://imaze-bucket.s3.ap-south-1.amazonaws.com/imaze_static_images/Rev_Pursuit.JPG",
+          "date": "15-12-2023",
+          "time": "11:00",
+          "price": 60,
+          "description": "Experience the excitement of a multi-stage competition where teams navigate obstacle-filled courses, demonstrate precise parking skills, and engage in a thrilling head-to-head race. It's a test of creativity, precision, and speed. Join us at the front or back parking venue for this dynamic challenge!\nParticipants need to make their own IoT car. Maximum dimensions are 20cm x 20cm x 20cm. It should be operated using your mobile phone.\nIn the game three stages are there : In first stage there will be a race round in which the competitors have to do laps and each car’s lap time will be measured, the path or lap includes obstacles and rough path with checkpoints after this stage top 5 participated teams will be selected.In the second stage the selected top 5 teams have to perform parallel parking and top 2 will be selected and in the very last stage both the selected teams have to do a race in which the winner will be selected.\n  • Round 1: One has to operate the car in such a way that it completes the lap in the minimum amount of time possible.\n  • Round 2: The selected top 5 will then perform parallel parking. The selection for the next round will be judged based on the time they took for parallel parking. There will be penalties for touching the boundaries.\n  • Round 3: The selected top 2 will race, and the winner will be selected.\n",
+          "venue": "Parking",
+          "totalwinners": 2,
+          "type": "SOLO",
+          "maxparticipants": 50,
+          "title": "Rev up your excitement at RevPursuit, the ultimate RC car racing competition! Watch competitors chase victory, where speed meets precision and the best lap time reigns supreme.",
+          "__v": 0
+          },
+          {
+          "isDiploma": false,
+          "event_type": "NORMAL",
+          "event_coordinator": [
+          {
+          "name": " Shraddha Patel",
+          "phoneno": "8849266128"
+          },
+          {
+          "name": " Hetvi Prajapati",
+          "phoneno": "7383941865"
+          }
+          ],
+          "participants": [],
+          "winner": [],
+          "attendance": [],
+          "isAvailable": true,
+          "noOfParticipants": 0,
+          "_id": "65238f5173a2bd13180db1d8",
+          "category": "Tech",
+          "name": "Hydroarm",
+          "image": "https://imaze-bucket.s3.ap-south-1.amazonaws.com/imaze_static_images/hydroarm.jpg",
+          "date": "14-12-2023",
+          "time": "14:00",
+          "price": 60,
+          "description": "Explore the HYDRAULIC ARM challenge, where creativity meets environmental consciousness. Design a hydraulic arm to clean dump yards without conventional sources of energy. With a focus on sustainability, use syringes, tubes, wood, and other materials to create an arm that lifts cups and places them at different heights. Join us for hours of innovative engineering at the parking lot behind the workshop!\nParticipants have to design a hydraulic arm. The arm stays stationary in the arena, picks up cups and places them on platforms at different heights on the arena.\nGENERAL GUILDLINES:\n  1. Maximum of 3 persons are allowed in the team.\n  2. Use of batteries, electrical motors, springs, compressors and pressurized cylinders are prohibited.\n  3. The fluid used inside the syringes should be water and mixing of salts or oils in water is prohibited.\n  4. There is no restriction in number of degrees of freedom used in arm.\n  5. The control of the machine will be only by syringes, only one player will be allowed to control the machine.\n  6. All the joints of the arm must be operated manually.\n  7. In case of any discrepancy decision of the judges shall be treated as final and binding on all\n  8. Material allowed are as followed--Syringes, Tubes, Wood, card board, Metallic frames, Rubber bands, cycle spokes, screws, nuts and bio-degradable waste.\nRound 1:\n  There are total five cups, out of which two cups are in some angle. Participants have to lift the cups present in the arena and place them on the platform of different heights. \nRound 2:\n  The task of the participants is to lift the lettered cups which are inverted using the arm and place them on table tennis balls such that they form a specific word",
+          "venue": "Lawn 3",
+          "totalwinners": 2,
+          "type": "SOLO",
+          "maxparticipants": 50,
+          "title": "Participants have to design a hydraulic arm. The arm stays stationary in the arena, picks up cups and places them on platforms at different heights on the arena.",
+          "__v": 0
+          },
+          {
+          "isDiploma": false,
+          "event_type": "NORMAL",
+          "event_coordinator": [
+          {
+          "name": "Umangi Brahmbhatt",
+          "phoneno": "9316240960"
+          },
+          {
+          "name": "Malank Patel",
+          "phoneno": "7046820450"
+          }
+          ],
+          "participants": [],
+          "winner": [],
+          "attendance": [],
+          "isAvailable": true,
+          "noOfParticipants": 0,
+          "_id": "65238f5173a2bd13180db1d9",
+          "category": "Tech",
+          "name": "Electrologic",
+          "image": "https://imaze-bucket.s3.ap-south-1.amazonaws.com/imaze_static_images/Electrologic.JPG",
+          "date": "13-12-2023",
+          "time": "11:00",
+          "price": 60,
+          "description": "In the labyrinthine corridors of 'ElectroLogic,' a realm where circuitry dances and imagination takes flight, a unique spectacle unfolds. Picture this: pairs of participants, eyes alight with determination, gesturing the language of circuits in a Dumb Charades challenge that crackles with excitement. With each move, they decipher the secrets of electronic components, their gestures painting a story of innovation. As the room hums with anticipation, the top contenders emerge, their minds buzzing with ideas. In the subsequent rounds, they'll craft digital dreams on stimulators and breathe life into circuits on breadboard.\nElectroLogic consists of three rounds:\n  • Dumb Charades Challenge: In Round 1, teams engage in a Dumb Charades challenge to identify given components through actions. The teams that have the maximum correct answer will qualify for round 2, with four such teams advancing to the next round.\n  • Digital Logic Gates Challenge: Teams must identify basic digital logic gates and construct a circuit based on these gates, implementing it on a simulator. The round has a time limit of 1 hour and 30 minutes. The top-performing teams with the most correct answers proceed to Round 3, with three teams advancing.\n  • Implementation Challenge: Round 3 has a time limit of 1 hour and 30 minutes, during which the 3 teams must implement the previously designed circuit on a breadboard. The top 2 teams with the most successful implementations will be declared the winner and runner-up.\n",
+          "venue": "D206, D207 and D208",
+          "totalwinners": 2,
+          "type": "SOLO",
+          "maxparticipants": 40,
+          "title": "Unleash your inner innovator in the captivating world of digital circuit design with fun and technical challenges.",
+          "__v": 0
+          },
+          {
+          "isDiploma": false,
+          "event_type": "NORMAL",
+          "event_coordinator": [
+          {
+          "name": "Krishna Shah",
+          "phoneno": "8460164656"
+          },
+          {
+          "name": "Shivansh Srivastava",
+          "phoneno": "9305242236"
+          }
+          ],
+          "participants": [],
+          "winner": [],
+          "attendance": [],
+          "isAvailable": true,
+          "noOfParticipants": 0,
+          "_id": "65238f5173a2bd13180db1da",
+          "category": "Tech",
+          "name": "Pixel Palooza",
+          "image": "https://imaze-bucket.s3.ap-south-1.amazonaws.com/imaze_static_images/Pixel_Palooza.JPG",
+          "date": "13-12-2023",
+          "time": "14:00",
+          "price": 60,
+          "description": "In the enchanting realm of UI/UX wonders, where creativity knows no bounds, we invite you to our UI/UX Design Challenge! Here, participants delve deep into the intricate tapestry of User Interface and User Experience. It's not just an event; it's a journey, a canvas waiting for your creative strokes. Explore the world of design, where every click and colour choice tells a story. Join us in this captivating adventure, where your designs aren't just pixels on a screen but windows into a world of endless possibilities.\n• Round 1: Team Round\nThe registered participants will face a series of intriguing brain teasers centered around UI/UX and its various elements. They will be awarded points, which will help them move further in the contest. It consist of on spot team formation.\n• Round 2: 30 participants will qualify. Teams of 3 members each will create innovative page layouts based on the provided topics and elements. The winning team will be selected based on adherence to UI/UX guidelines and the creation of a standout design.\n",
+          "venue": "GFL1 and E303",
+          "totalwinners": 2,
+          "type": "SOLO",
+          "maxparticipants": 100,
+          "title": "In the enchanting realm of UI/UX wonders, where creativity knows no bounds, we invite you to our UI/UX Design Challenge! Here, participants delve deep into the intricate tapestry of User Interface and User Experience. It's not just an event; it's a journey, a canvas waiting for your creative strokes. Explore the world of design, where every click and colour choice tells a story. Join us in this captivating adventure, where your designs aren't just pixels on a screen but windows into a world of endless possibilities.",
+          "__v": 0
+          },
+          {
+          "isDiploma": false,
+          "event_type": "NORMAL",
+          "event_coordinator": [
+          {
+          "name": "Tirth Jasoliya",
+          "phoneno": "9638070404"
+          },
+          {
+          "name": "Trushti Desai",
+          "phoneno": "9510269789"
+          }
+          ],
+          "participants": [],
+          "winner": [],
+          "attendance": [],
+          "isAvailable": true,
+          "noOfParticipants": 0,
+          "_id": "65238f5173a2bd13180db1db",
+          "category": "Tech",
+          "name": "Flip o click",
+          "image": "https://imaze-bucket.s3.ap-south-1.amazonaws.com/imaze_static_images/flip+o+click.jpg",
+          "date": "15-12-2023",
+          "time": "12:00",
+          "price": 60,
+          "description": "In a realm where intellect and ingenuity converge, pairs of participants embark on a dual-stage journey. First, a bottle flip decides their fate, revealing questions waiting to be answered. The chosen ten pairs ascend to the digital treasure hunt, deciphering clues on a screen adorned with cryptic blocks. As they solve, the hidden image materializes, marking their triumph in this captivating odyssey of wit and discovery.\nThe event consists of two rounds:\n• Round 1: Registered contestants will form two-person teams in the first round. One team member flips a bottle, and when the bottle flips, the other team member answers technical questions on paper. Points are awarded based on correct answers, determining their progress in the contest.\n• Round 2: In the second round, 10 out of 20 teams will qualify. You will be given a laptop on which a website with various blocks will be displayed. The website is organized into several sections. Numbers will be marked on the block, and when you click them, a question will appear that you must answer.\n",
+          "venue": "A118,E103/GFL1",
+          "totalwinners": 2,
+          "type": "SOLO",
+          "maxparticipants": 40,
+          "title": "In a realm where intellect and ingenuity converge, pairs of participants embark on a dual-stage journey. First, a bottle flip decides their fate, revealing questions waiting to be answered. The chosen ten pairs ascend to the digital treasure hunt, deciphering clues on a screen adorned with cryptic blocks. As they solve, the hidden image materializes, marking their triumph in this captivating odyssey of wit and discovery.",
+          "__v": 0
+          },
+          {
+          "isDiploma": false,
+          "event_type": "NORMAL",
+          "event_coordinator": [
+          {
+          "name": "Harsh Vasoya",
+          "phoneno": "9723543937"
+          },
+          {
+          "name": "Unnati Aroda",
+          "phoneno": "7069320094"
+          }
+          ],
+          "participants": [
+          "652553240a3b1f2f35360b36",
+          "65265ba29219afc38503e869",
+          "6527946d9219afc3850492ec",
+          "65265b999219afc38503e821",
+          "6527aed6a481a47c181e1b64",
+          "6527c381a481a47c181e3e7f",
+          "652794969219afc385049339",
+          "6528d7f1a06ff693c98296d1"
+          ],
+          "winner": [],
+          "attendance": [],
+          "isAvailable": true,
+          "noOfParticipants": 8,
+          "_id": "65238f5173a2bd13180db1dc",
+          "category": "Tech",
+          "name": "Code Surge",
+          "image": "https://imaze-bucket.s3.ap-south-1.amazonaws.com/imaze_static_images/Codesurge.JPG",
+          "date": "15-12-2023",
+          "time": "09:00",
+          "price": 60,
+          "description": "In a trio of coding challenges, pairs of participants’ journey through intricate rounds, from quizzes to code debugging and a blind coding escapade. Amidst the clicks of keyboards, attendees master the art of bug-squashing and problem-solving. As screens turn, coding prowess is tested under unique circumstances. The event fosters camaraderie, sparking connections and igniting coding fervor. Winners emerge, not just with prizes, but with a heightened sense of achievement, ready to conquer the coding cosmos.\nThis event unfolds in three rounds:\nBrainBit: A mind boggling quiz round that would filter 15 pairs to move on to round 2.\nBug Hunt: Participants are challenged with debugging a code as quickly as possible. The top 10 pairs with fastest debugging skills will advance to round 3.\nInvisiCode:  In this round, one member of each pair will take on the challenge of coding for a problem statement blindly, while the other partner will have the opportunity to guide their coding counterpart at regular intervals. This dynamic pairing ensures a unique and collaborative problem-solving experience. Top three winners will be decided by the accuracy of the code. \n",
+          "venue": "A217 and E302",
+          "totalwinners": 2,
+          "type": "SOLO",
+          "maxparticipants": 100,
+          "title": "In a trio of coding challenges, pairs of participants journey through intricate rounds, from quizzes to code debugging and a blind coding escapade. Amidst the clicks of keyboards, attendees master the art of bug-squashing and problem-solving. As screens turn, coding prowess is tested under unique circumstances. The event fosters camaraderie, sparking connections and igniting coding fervor. Winners emerge, not just with prizes, but with a heightened sense of achievement, ready to conquer the coding cosmos.",
+          "__v": 0
+          },
+          {
+          "isDiploma": false,
+          "event_type": "NORMAL",
+          "event_coordinator": [
+          {
+          "name": "Tapan Vankar",
+          "phoneno": "9428873751"
+          },
+          {
+          "name": "Utsav kakadiya",
+          "phoneno": "9429820755"
+          }
+          ],
+          "participants": [],
+          "winner": [],
+          "attendance": [],
+          "isAvailable": true,
+          "noOfParticipants": 0,
+          "_id": "65238f5173a2bd13180db1dd",
+          "category": "Tech",
+          "name": "Binary Fusion",
+          "image": "https://imaze-bucket.s3.ap-south-1.amazonaws.com/imaze_static_images/Binary_Fusion.jpg",
+          "date": "14-12-2023",
+          "time": "09:00",
+          "price": 60,
+          "description": "Delve into a world of creativity and coding challenges. Pair up and solve out-of-the-box problems, showcasing your skills. Crack riddles, find clues, and navigate the campus in an exhilarating treasure hunt. Decode a video clue and craft a path using loops in C/C++. Are you up for the challenge?\nIn Binary Fusion, two rounds await you:\n• Round 1: Teams of two engage in simultaneous tech and non-tech activities. Within each team, members designate roles for the tech and non-tech parts. These activities feature three problems each, with different point values (10, 20, and 30) based on their difficulty levels. \n• Round 2: The 12 teams of two members each advance based on their first-round performance. They start by solving two riddles, where the first riddle's answer corresponds to a faculty member, and the second riddle yields a meaningful three-character codeword. This codeword serves as confirmation from the faculty member identified in the first riddle.\n• Participants either locate the faculty if they already know the faculty member and obtain a confirmation chit or access faculty details in a PDF file using the codeword as a password. \n• This round has a 90-minute time limit, and participants are permitted to use various sources, including the Internet and information from faculty, seniors, professionals, etc.\n\nRound 1:\n- Teams of two participants each.(On spot team formation)\n- Two activities: tech and non-tech.\n- Each activity has 3 problems of varying difficulty (10, 20, 30 points).\n- Tech involves basic coding; non-tech focuses on creative problem-solving.\n- Time limit: 15 minutes.\n\nRound 2 (90 minutes):\n- Top 12 teams from Round 1 advance.\n- Solve 2 riddles to locate a volunteer wearing a specific 3-character codeword.\n- Confirmation within 45 minutes or report to a designated location.\n- Main technical round: Watch a clue video, then code the shortest path using loops in C/C++.\n- Points awarded based on the efficiency of the chosen path.\n\nNote:\n- Participants are disqualified if they directly call the volunteers.",
+          "venue": "A203",
+          "totalwinners": 2,
+          "type": "SOLO",
+          "maxparticipants": 100,
+          "title": "Delve into a world of creativity and coding challenges. Pair up and solve out-of-the-box problems, showcasing your skills. Crack riddles, find clues, and navigate the campus in an exhilarating treasure hunt. Decode a video clue and craft a path using loops in C/C++. Are you up for the challenge?",
+          "__v": 0
+          },
+          {
+          "isDiploma": false,
+          "event_type": "NORMAL",
+          "event_coordinator": [
+          {
+          "name": "Dhruv Vachhani",
+          "phoneno": "7984910623"
+          },
+          {
+          "name": "Urmil Prajapati",
+          "phoneno": "7984639317"
+          }
+          ],
+          "participants": [],
+          "winner": [],
+          "attendance": [],
+          "isAvailable": true,
+          "noOfParticipants": 0,
+          "_id": "65238f5173a2bd13180db1de",
+          "category": "Tech",
+          "name": "Io-Thon",
+          "image": "https://imaze-bucket.s3.ap-south-1.amazonaws.com/imaze_static_images/IOTHON.JPG",
+          "date": "15-12-2023",
+          "time": "09:00",
+          "price": 60,
+          "description": "This event comprises of 3 rounds:\nIn the first round, the registered participants will appear for a quiz individually. The questions will be regarding various sensors, microcontrollers and components related to IoT. \nFor the second round 30 out of 40 participants will be selected. They will pair up and create a simulation of an IoT model provided by the organizers in Tinker CAD. Based on the time they take to do so, they will qualify for the last round. \nIn the last round, 5 teams (10 participants) will create a physical model on the statement given by organizers. They can use any online resource to do so. The most accurate and efficient model will win the competition. \nGeneral Guidelines: \n1. You will need to create an account in Autodesk so keep your email handy. \n2. All electronic components will be provided by us, but if you want to use your own equivalent components, you can.\n3. If you have laptop, you can bring it for your own advantage.\n4. While performing the task, if you deliberately damage the component, you’ll be fined",
+          "venue": "D309",
+          "totalwinners": 2,
+          "type": "SOLO",
+          "maxparticipants": 40,
+          "title": "Step into the world of IoT with our interactive challenge! Participants will showcase their expertise in sensors, microcontrollers, and IoT components. In this event, creativity meets technology as teams collaborate to design and simulate innovative IoT models. The focus is on practical application and problem-solving. Participants are encouraged to utilize online resources and their ingenuity to craft efficient and accurate models. Join us for an exciting exploration of IoT capabilities!",
+          "__v": 0
+          },
+          {
+          "isDiploma": false,
+          "event_type": "NORMAL",
+          "event_coordinator": [
+          {
+          "name": "Harshal Kathiriya",
+          "phoneno": "9913350390"
+          },
+          {
+          "name": "Dhruvit Gadhiya",
+          "phoneno": "9157873567"
+          }
+          ],
+          "participants": [
+          "6524f156710f750837f767a7"
+          ],
+          "winner": [],
+          "attendance": [],
+          "isAvailable": true,
+          "noOfParticipants": 1,
+          "_id": "65238f5173a2bd13180db1df",
+          "category": "Tech",
+          "name": "Code blitz",
+          "image": "https://imaze-bucket.s3.ap-south-1.amazonaws.com/imaze_static_images/code+blitz.jpg",
+          "date": "13-12-2023",
+          "time": "11:00",
+          "price": 60,
+          "description": "In the realm of algorithms and puzzles, where logic meets creativity, pairs of tech enthusiasts gather. Amidst the hum of anticipation, they embark on a journey through intricate quizzes, rapid coding duels, and mind-bending challenges. Imagine a tapestry of challenges, where every keystroke weaves a story of strategy and brilliance. This is not just a contest; it's a saga of minds at play, a symphony of coding prowess waiting to unfold.\nThis event features two rounds:\n• TechShowdown:\n  In this round, team will receive only a sample input and output and must code accordingly.\n  Phase 1: Teams of four sit in rows at designated benches, each receiving a crossword puzzle with 5 technical questions. They solve as many questions as possible in 1-minute intervals, passing the puzzle to the next member. This rotation continues until all members attempt each puzzle once.\n  Phase 2: A buzzer-based coding test begins. A problem statement is displayed on a projector, and teams must press the buzzer within 20-30 seconds. \n• Brain Power Duo: The 6 remaining teams are split into pairs, resulting in 2 members per team. Simultaneously, teams tackle creativity and problem-solving questions alongside coding challenges. The first five teams to solve the questions gain hints for the coding round.\nIn this round, teams receive only a sample input and output and must code accordingly.",
+          "venue": "A217 and SFL1",
+          "totalwinners": 2,
+          "type": "SOLO",
+          "maxparticipants": 100,
+          "title": "In the realm of algorithms and puzzles, where logic meets creativity, pairs of tech enthusiasts gather. Amidst the hum of anticipation, they embark on a journey through intricate quizzes, rapid coding duels, and mind-bending challenges. Imagine a tapestry of challenges, where every keystroke weaves a story of strategy and brilliance. This is not just a contest; it's a saga of minds at play, a symphony of coding prowess waiting to unfold.",
+          "__v": 0
+          },
+          {
+          "isDiploma": false,
+          "event_type": "NORMAL",
+          "event_coordinator": [
+          {
+          "name": "Aditya Mehta",
+          "phoneno": "9714665254"
+          },
+          {
+          "name": "Tapan Vankar",
+          "phoneno": "7567510308"
+          }
+          ],
+          "participants": [
+          "65252039d5b4792b964c6ca0",
+          "6527fb40a06ff693c9821696",
+          "65279f669219afc38504b011",
+          "6527fd35a06ff693c98217ec",
+          "6527fe19a06ff693c98218a1",
+          "65280272a06ff693c9821fdf",
+          "652925f6a06ff693c9830b39",
+          "6524df44710f750837f70bfd"
+          ],
+          "winner": [],
+          "attendance": [],
+          "isAvailable": true,
+          "noOfParticipants": 8,
+          "_id": "65238f5173a2bd13180db1e0",
+          "category": "Tech",
+          "name": "Electech Nexus",
+          "image": "https://imaze-bucket.s3.ap-south-1.amazonaws.com/imaze_static_images/Electech_Nexus.jpg",
+          "date": "14-12-2023",
+          "time": "09:00",
+          "price": 60,
+          "description": "Electech Nexus is all about electrifying fun and challenges. Imagine acting out electrical terms, manoeuvring rods through metallic wires, solving puzzles, and fixing circuits. It's an exciting journey where simplicity meets skill. Get ready for a day full of surprises, teamwork, and thrilling moments!\nThe event unfolds in four rounds:\n• ELECHARADES: The challenge is to guess the component's name within a 60-second time limit. Correct guesses earn teams 5 points, while incorrect ones result in a loss of 3 points.\n• Power Surge: Previously grouped participants compete individually, navigating a hollow metallic rod through a curved metallic wire from a starting point to reach the endpoint. If they are successful, they select a question chit from the basket and provide the answer to the question inside. \n• Escape Room: Participants are divided into three-member teams and locked in themed rooms, working together to solve puzzles and escape within a 30-minute limit from both rooms to proceed further in the event.\n• Troubleshooting: A mysterious electrical circuit containing hidden faults is given. Teams are tasked with identifying these faults using diagnostic tools, including multi-meters, and then applying their troubleshooting skills to fix the issues and restore the circuit's functionality within a 45-minute time limit.\n",
+          "venue": "lawn 4, A118, C302 and C303",
+          "totalwinners": 2,
+          "type": "SOLO",
+          "maxparticipants": 40,
+          "title": "Electech Nexus is all about electrifying fun and challenges. Imagine acting out electrical terms, manoeuvring rods through metallic wires, solving puzzles, and fixing circuits. It's an exciting journey where simplicity meets skill. Get ready for a day full of surprises, teamwork, and thrilling moments!",
+          "__v": 0
+          },
+          {
+          "isDiploma": false,
+          "event_type": "NORMAL",
+          "event_coordinator": [
+          {
+          "name": "Dev Shelat",
+          "phoneno": "8733920052"
+          },
+          {
+          "name": "Kathan Dave",
+          "phoneno": "9409551170"
+          }
+          ],
+          "participants": [],
+          "winner": [],
+          "attendance": [],
+          "isAvailable": true,
+          "noOfParticipants": 0,
+          "_id": "65238f5173a2bd13180db1e1",
+          "category": "Tech",
+          "name": "Mechy Techy",
+          "image": "https://imaze-bucket.s3.ap-south-1.amazonaws.com/imaze_static_images/Mechy_Techy.JPG",
+          "date": "13-12-2023",
+          "time": "14:00",
+          "price": 60,
+          "description": "Picture this: intricate mechanical drawings awaiting your touch, your team racing against the clock to breathe life into these designs. The magic happens in Computer Aided Drawings, where creativity meets precision. But that's not all – the excitement doubles in the final round! Imagine pulling shuffled chits, decoding hidden components, and racing against time to complete tasks. It's a journey through the realms of design, strategy, and quick thinking.\nThe organizing team will prepare a computer aided drawings comprising of elements of mechanical engineering machines. The enrolled teams are supposed to complete the given drawing considering priority to time, and the teams will be promoted on the basis of least time taken.\nFrom the initial pool, only 4-5 teams will progress to the final round. In this concluding stage, each team must draw a chit at random, identify the specific element or component listed, and then photograph it for submission.\n",
+          "venue": "ME WS",
+          "totalwinners": 2,
+          "type": "SOLO",
+          "maxparticipants": 30,
+          "title": "Picture this: intricate mechanical drawings awaiting your touch, your team racing against the clock to breathe life into these designs. The magic happens in Computer Aided Drawings, where creativity meets precision. But that's not all – the excitement doubles in the final round! Imagine pulling shuffled chits, decoding hidden components, and racing against time to complete tasks. It's a journey through the realms of design, strategy, and quick thinking.",
+          "__v": 0
+          },
+          {
+          "isDiploma": false,
+          "event_type": "NORMAL",
+          "event_coordinator": [
+          {
+          "name": "Preet Desai",
+          "phoneno": "9033898994"
+          },
+          {
+          "name": "Devraj Rathod",
+          "phoneno": "9265054362"
+          }
+          ],
+          "participants": [
+          "6527957c9219afc385049705",
+          "6526305590e709be95a5d30e",
+          "65250c69710f750837f7a699",
+          "65277bed9219afc3850475e7",
+          "65277b4f9219afc3850474c3",
+          "6524e2b7710f750837f715e5",
+          "652798509219afc38504a042",
+          "6528e5bea06ff693c982bdbd"
+          ],
+          "winner": [],
+          "attendance": [],
+          "isAvailable": true,
+          "noOfParticipants": 8,
+          "_id": "65238f5173a2bd13180db1e2",
+          "category": "Tech",
+          "name": "Shakes-proof",
+          "image": "https://imaze-bucket.s3.ap-south-1.amazonaws.com/imaze_static_images/Shakesproof.jpg",
+          "date": "13-12-2023",
+          "time": "14:00",
+          "price": 60,
+          "description": "ShakesProof is a symphony of engineering brilliance and collaborative spirit. It will challenge your mind, test your engineering skills, and showcase the true marvels of construction. Teams of budding engineers take on the ultimate challenge: creating structures that can withstand vibrations and simulated earthquakes.\nThis event consists of two rounds:\n• Round 1 (Construct a Model): Teams of 2-3 participants must build a multi-story structure using the provided materials within a 60-minute time limit. The challenge is to create a stable building capable of withstanding vibrations. The building should have a minimum of 3 stories and a maximum of 5 stories. Scoring depends on construction time and the relevance of steps to the context. The more precise and contextually relevant their structures are, the higher their score.\n• Round 2 (Apply Vibrations To The Structures): In this round, teams place their structures on a Vibration Testing Machine, aiming to withstand vibrations or earthquake loads. One team member operates the machine while a volunteer supervises and records the load resistance. Effective teamwork, building on skills from the previous round, is crucial. Points are awarded based on the maximum amount of load resisted by the structure within a 10-minute time limit.\n",
+          "venue": "G305 and C108",
+          "totalwinners": 2,
+          "type": "SOLO",
+          "maxparticipants": 30,
+          "title": "ShakesProof is a symphony of engineering brilliance and collaborative spirit. It will challenge your mind, test your engineering skills, and showcase the true marvels of construction. Teams of budding engineers take on the ultimate challenge: creating structures that can withstand vibrations and simulated earthquakes.",
+          "__v": 0
+          },
+          {
+          "isDiploma": false,
+          "event_type": "NORMAL",
+          "event_coordinator": [
+          {
+          "name": "Shubham",
+          "phoneno": "9727667946"
+          },
+          {
+          "name": "Harshit Zinzuwadia",
+          "phoneno": "8155854196"
+          }
+          ],
+          "participants": [
+          "6524f1a0710f750837f76932",
+          "6524f31f710f750837f77011",
+          "6524f400710f750837f77348",
+          "6524f5bd710f750837f777b0",
+          "6526303990e709be95a5d2e2",
+          "652647ec9219afc38503d3b9",
+          "652648be9219afc38503d50c",
+          "652647bb9219afc38503d3b2",
+          "652796799219afc385049afc",
+          "652553240a3b1f2f35360b36",
+          "65265ba29219afc38503e869",
+          "6527946d9219afc3850492ec",
+          "65265b999219afc38503e821",
+          "6527aed6a481a47c181e1b64",
+          "6527c381a481a47c181e3e7f",
+          "652794969219afc385049339",
+          "6528d7f1a06ff693c98296d1"
+          ],
+          "winner": [],
+          "attendance": [],
+          "isAvailable": true,
+          "noOfParticipants": 17,
+          "_id": "65238f5173a2bd13180db1e3",
+          "category": "Tech",
+          "name": "Tech Episode",
+          "image": "https://imaze-bucket.s3.ap-south-1.amazonaws.com/imaze_static_images/futuristic+film.jpeg",
+          "date": "14-12-2023",
+          "time": "09:00",
+          "price": 60,
+          "description": "Step into a world of curiosity and challenges! Our event invites you to solve exciting puzzles and answer intriguing questions related to technology. Engage in friendly competition, collaborate with peers, and explore the depths of your knowledge. Join us in the seminar hall for an unforgettable event where learning meets fun. Get ready for a thrilling experience!\n• Round 1:\n Teams will engage in a technical puzzle challenge that pertains to their respective branches of study. The teams that successfully solve the puzzles fastest will be selected to advance to the next round. The objective of this round is to test the participants' problem-solving skills, domain knowledge, and teamwork abilities.\n• Round 2:\n Following the completion of the first round, teams will be reshuffled to ensure diversity in knowledge and expertise. Each newly formed group will consist of five participants, with each member representing one of the five distinct branches (5 participants: 1 from CP, 1 from IT, 1 from ME, 1 from CE, 1 from EE). A movie clip will be displayed with 5 parts consisting of hidden questions. The team which can give answers quickly and accurately will win the event.\n",
+          "venue": "Seminar",
+          "totalwinners": 2,
+          "type": "SOLO",
+          "maxparticipants": 40,
+          "title": "Step into a world of curiosity and challenges! Our event invites you to solve exciting puzzles and answer intriguing questions related to technology. Engage in friendly competition, collaborate with peers, and explore the depths of your knowledge. Join us in the seminar hall for an unforgettable event where learning meets fun. Get ready for a thrilling experience!",
+          "__v": 0
+          }
+          
+         ,
+          {
+          "isDiploma": false,
+          "event_type": "NORMAL",
+          "event_coordinator": [
+          {
+          "name": "Akshit Rana",
+          "phoneno": "9664536159"
+          },
+          {
+          "name": "Kathan Patel",
+          "phoneno": "6352524488"
+          }
+          ],
+          "participants": [],
+          "winner": [],
+          "attendance": [],
+          "isAvailable": true,
+          "noOfParticipants": 0,
+          "_id": "652391cd6f5bf91808a90cf5",
+          "category": "NonTech",
+          "name": "Valclassico 2.0 (BGMI)",
+          "image": "https://imaze-bucket.s3.ap-south-1.amazonaws.com/imaze_static_images/bgmi.jpg",
+          "date": "14-12-2023",
+          "time": "15:00",
+          "price": 200,
+          "description": "Get ready for an exciting gaming adventure filled with laughter, thrills, and victorious moments. But before you jump into the gaming arena, let's go over some important guidelines to ensure a fair and enjoyable competition. This is a team event with a requirement of 4 members.\nRules:     \n   1. Emulators are not allowed; players caught using emulators will be removed from the room and considered to have forfeited the match.\n   2. Hacking, scripting, or cheating in any form is strictly forbidden and will result in immediate forfeit on the first offense and account ban on the second offense.\n   3. Teaming or cooperating with opponents is not allowed; violators will be considered to have forfeited the match.\n   4. Players are responsible for their own devices and internet connections; disconnections or device crashes will result in forfeiting the match.\n   5. No rematch will be given in case of teamers or hackers; the result will be adjusted accordingly.\n   6. In the event of a hacker/cheater getting qualified, necessary proofs will be requested by the Admin Team from the suspected player and the accusers. If found guilty, the player will be banned, and the slot will remain empty.\nRequirements:\n   1. An Internet connection from the college is not required; players can use their own connections.",
+          "venue": "Classroom",
+          "totalwinners": 1,
+          "type": "GROUP",
+          "min_members": 4,
+          "max_members": 4,
+          "maxparticipants": 100,
+          "title": "Welcome to \"Battlegrounds at GCET,\" a world where gaming skills and camaraderie take centre stage. ",
+          "__v": 0
+          },
+          {
+          "isDiploma": false,
+          "event_type": "NORMAL",
+          "event_coordinator": [
+          {
+          "name": "Rudra Bhatt",
+          "phoneno": "7600929340"
+          },
+          {
+          "name": "Harmandeep Singh Bunet",
+          "phoneno": "9825126395"
+          }
+          ],
+          "participants": [
+          {
+          "team_name": "PYTHONS ",
+          "team_leader": "6524e5a3710f750837f723bb",
+          "members": [
+          "6524e5b9710f750837f724ec",
+          "6528e496a06ff693c982bbcb",
+          "6528e323a06ff693c982baaa",
+          "6528e216a06ff693c982b8d4",
+          "65251c30710f750837f7c459"
+          ]
+          }
+          ],
+          "winner": [],
+          "attendance": [],
+          "isAvailable": true,
+          "noOfParticipants": 1,
+          "_id": "652391cd6f5bf91808a90cf6",
+          "category": "NonTech",
+          "name": "Valclassico 2.0 (Valorant)",
+          "image": "https://imaze-bucket.s3.ap-south-1.amazonaws.com/imaze_static_images/Valorant.png",
+          "date": "14-12-2023",
+          "time": "15:00",
+          "price": 300,
+          "description": "Get ready to experience intense battles and showcase your Valorant skills. Before you dive into the tournament, let's go over some crucial guidelines to ensure a fair and exciting competition. This is a team event with a requirement of 5 members.\nRules:-\n   1. Each player is allowed only one active Valorant account with accurate and up-to-date information. Sharing or using someone else's account is strictly prohibited and can result in suspension.\n   2. Teams must consist of a minimum of 5 players with an additional substitute player.\n   3. Substitutes can only be added before the tournament begins and must not be part of another team.\n   4. Players can represent only one team in the same tournament.\n   5. Both team captains must submit screenshots of match results within 15 minutes, failure to provide screenshots may result in disqualification.\n   6. Cheating, exploiting bugs, or using third-party applications for an unfair advantage are strictly forbidden.\n   7. Respect, integrity, and appropriate behaviour are expected from all participants.\n   8. Discriminatory language and inappropriate conduct are not tolerated.",
+          "venue": "SFL4",
+          "totalwinners": 1,
+          "type": "GROUP",
+          "min_members": 5,
+          "max_members": 6,
+          "maxparticipants": 16,
+          "title": "Welcome to GCET's Ultimate Valorant Extravaganza, where gaming enthusiasts come together for an electrifying gaming competition.",
+          "__v": 0
+          },
+          {
+          "isDiploma": false,
+          "event_type": "NORMAL",
+          "event_coordinator": [
+          {
+          "name": "Navpreet Singh",
+          "phoneno": "7227082556"
+          },
+          {
+          "name": "Vrajal Mehta",
+          "phoneno": "6353291582"
+          }
+          ],
+          "participants": [],
+          "winner": [],
+          "attendance": [],
+          "isAvailable": true,
+          "noOfParticipants": 0,
+          "_id": "652391cd6f5bf91808a90cf7",
+          "category": "NonTech",
+          "name": "Wicket Warriors",
+          "image": "https://imaze-bucket.s3.ap-south-1.amazonaws.com/imaze_static_images/box_cricket.jpg",
+          "date": "14-12-2023",
+          "time": "10:00",
+          "price": 280,
+          "description": "Get ready to step onto the cricket pitch like never before! GCET proudly presents the \"Box Cricket Bonanza,\" a high-octane cricket tournament that's all about fun, teamwork, and fierce competition. Whether you're a seasoned cricket enthusiast or just looking to enjoy some casual play, this event guarantees an unforgettable day of sporting action.\nRules and Regulations:\n   1. Each team must consist of 7 players.\n   2. Matches will be played within a box.\n   3. Umpires will ensure fair play and enforce the rules throughout the tournament.",
+          "venue": "Basketball court",
+          "totalwinners": 2,
+          "type": "GROUP",
+          "min_members": 7,
+          "max_members": 7,
+          "maxparticipants": 16,
+          "title": "A friendly banter of non-stop cricketing action within confined space promising electrifying moments and spirited competition.",
+          "__v": 0
+          },
+          {
+          "isDiploma": false,
+          "event_type": "NORMAL",
+          "event_coordinator": [
+          {
+          "name": "Rushi Parikh",
+          "phoneno": "8980040111"
+          }
+          ],
+          "participants": [],
+          "winner": [],
+          "attendance": [],
+          "isAvailable": true,
+          "noOfParticipants": 0,
+          "_id": "652391cd6f5bf91808a90cf8",
+          "category": "NonTech",
+          "name": "The survival",
+          "image": "https://imaze-bucket.s3.ap-south-1.amazonaws.com/imaze_static_images/survival+surge.jpg",
+          "date": "14-12-2023",
+          "time": "09:00",
+          "price": 120,
+          "description": "Round 1:\nThe round is divided into 7 tasks where one needs to get a colour cloth to free their partner.\n   Task-1:- Hit the bottle using tennis ball.\n   Task-2:- Catch the balls while jumping over bamboos.\n   Task-3:- Pick a sponge using your mouth.\n   Task-4:- Go around the stumps.\n   Task-5:- Drop the ball in the bucket according to gate number.\n   Task-6:- Open the gate and find the key.\n   Task-7:- Unlock the partner and take colour cloth.\nRound 2:\nThe round is divided into 7 tasks.\n   Task-1:- Solve the puzzles.\n   Task-2:- Arrange the bottles using balloon.\n   Task-3:- Arrange various spellings.\n   Task-4:- Teams will need to pass small thermocol in between the bottles.\n   Task-5:- Go around the stumps and drop the ball.\n   Task-6:- Combine task with your partner.\n   Task-7:- Arrange the stones using different glasses.",
+          "venue": "Parking area",
+          "totalwinners": 1,
+          "type": "GROUP",
+          "min_members": 3,
+          "max_members": 3,
+          "maxparticipants": 100,
+          "title": "In the Maze of Might and Mind, Only the Clever and Agile Emerge Supreme traversing the physical labyrinths of unmatched challenges. And to the Victor Go the Spoils!",
+          "__v": 0
+          },
+          {
+          "isDiploma": false,
+          "event_type": "NORMAL",
+          "event_coordinator": [
+          {
+          "name": "Parth Rajput",
+          "phoneno": "7383930395"
+          },
+          {
+          "name": "Masoom Patel",
+          "phoneno": "9664994899"
+          }
+          ],
+          "participants": [
+          "6524f1a0710f750837f76932",
+          "6524f31f710f750837f77011",
+          "6524f400710f750837f77348",
+          "652553240a3b1f2f35360b36",
+          "65265ba29219afc38503e869",
+          "6527946d9219afc3850492ec",
+          "65265b999219afc38503e821",
+          "6527aed6a481a47c181e1b64",
+          "6527c381a481a47c181e3e7f",
+          "652794969219afc385049339",
+          "6528d7f1a06ff693c98296d1"
+          ],
+          "winner": [],
+          "attendance": [],
+          "isAvailable": true,
+          "noOfParticipants": 11,
+          "_id": "652391cd6f5bf91808a90cf9",
+          "category": "NonTech",
+          "name": "AD -wiz",
+          "image": "https://imaze-bucket.s3.ap-south-1.amazonaws.com/imaze_static_images/ad_viz.jpg",
+          "date": "13-12-2023",
+          "time": "11:00",
+          "price": 40,
+          "description": "AD-VIZ is a non-technical event that revolves around the recognition of well-known brands. It's a game designed to test your team's knowledge of various brands and assess your creativity in producing advertisements for merchandise, shoes, or other products. Get ready to showcase your marketing and advertising skills in an exciting competition.\nEvent sprouts into:\nRound 1:\n   1. 3 photos must be uploaded by participants.\n   2. Pictures must be taken on the college campus, any photos taken offcampus will not be taken into consideration.\n   3. Editing of images is permiƩed.\n   4. The editing and photography will both be taken into consideration while\n      evaluating.\n   5. Participants are required to contribute three different images.\nThe participant will be eliminated if they post any downloaded material.\nRound 2:\n   1. Teams will have to make an AD based on their given product or topic.\n   2. They will be judged based on their creativity level, completeness of the AD along with the understanding of the concept used in the AD.",
+          "venue": "A118",
+          "totalwinners": 2,
+          "type": "SOLO",
+          "maxparticipants": 10000,
+          "title": "Thrives to challenge your knowledge of popular brands and your ability to craft compelling advertisements for various products.",
+          "__v": 0
+          },
+          {
+          "isDiploma": false,
+          "event_type": "NORMAL",
+          "event_coordinator": [
+          {
+          "name": "Dev latia",
+          "phoneno": "8140844555"
+          },
+          {
+          "name": "Dhaval bhalgamadiya",
+          "phoneno": "6355096060"
+          }
+          ],
+          "participants": [
+          "652647ec9219afc38503d3b9",
+          "652648be9219afc38503d50c",
+          "652647bb9219afc38503d3b2",
+          "6527957c9219afc385049705",
+          "652796799219afc385049afc",
+          "6526305590e709be95a5d30e",
+          "65250c69710f750837f7a699",
+          "65277bed9219afc3850475e7",
+          "65277b4f9219afc3850474c3",
+          "6524e2b7710f750837f715e5",
+          "652798509219afc38504a042",
+          "6525207ed5b4792b964c6d9a",
+          "6528209ca06ff693c98258e1",
+          "65267f149219afc385040a77",
+          "6528e5bea06ff693c982bdbd",
+          "6528d954a06ff693c9829cac",
+          "6524fdef710f750837f78e00",
+          "65290682a06ff693c982f920",
+          "6524eb94710f750837f74848"
+          ],
+          "winner": [],
+          "attendance": [],
+          "isAvailable": true,
+          "noOfParticipants": 19,
+          "_id": "652391cd6f5bf91808a90cfb",
+          "category": "NonTech",
+          "name": "Techy Ludo",
+          "image": "https://imaze-bucket.s3.ap-south-1.amazonaws.com/imaze_static_images/techy_ludo.jpeg",
+          "date": "15-12-2023",
+          "time": "10:00",
+          "price": 40,
+          "description": "Normal Ludo Game will be played as it is, but whenever elimination occur we will ask that \nparticular player a quiz question, if He/She give the correct answer then He/She is Safe, And \nhis/her team rewarded 15 points. If the answer is wrong then the player will start the game \nagain from the starting point and the opposition team will be rewarded with 10 points.\nIf the player completes the whole path and reach to the Home then team will be rewarded \nwith 20 points.\nAt The end After 45 minutes a team which have Highest points will be Declared as the \nWinner. \nRegistration fees for single participant is Rs.50\nTypes of Questions : \n   1. General Knowledge\n   2. Sports\n   3. Politics",
+          "venue": "Chemical open area",
+          "totalwinners": 2,
+          "type": "SOLO",
+          "maxparticipants": 128,
+          "title": "Roll the dice, test your knowledge, and strategize your way to victory in this unique blend of classic gameplay and tech-savvy - techy ludo",
+          "__v": 0
+          },
+          {
+          "isDiploma": false,
+          "event_type": "NORMAL",
+          "event_coordinator": [
+          {
+          "name": "Pushti desai ",
+          "phoneno": "9512266044"
+          },
+          {
+          "name": "vinit goyal",
+          "phoneno": "9998037842"
+          }
+          ],
+          "participants": [
+          "65252039d5b4792b964c6ca0",
+          "65279f669219afc38504b011",
+          "65280272a06ff693c9821fdf",
+          "652925f6a06ff693c9830b39"
+          ],
+          "winner": [],
+          "attendance": [],
+          "isAvailable": true,
+          "noOfParticipants": 4,
+          "_id": "652391cd6f5bf91808a90cfc",
+          "category": "NonTech",
+          "name": "Food Fiesta",
+          "image": "https://imaze-bucket.s3.ap-south-1.amazonaws.com/imaze_static_images/food_fiesta.jpg",
+          "date": "13-12-2023",
+          "time": "14:00",
+          "price": 40,
+          "description": "Round-wise Guidelines:\nRound 1: Food Quiz\nIn the first round of Food Fiesta, it's time to put your food knowledge to the test. Gather\nyour team and prepare to answer questions that span the globe of gastronomy. From\nobscure ingredients to culinary history, this round will challenge your food IQ. Only\nthose with a true passion for food will emerge victorious!\nRound 2: Treasure Hunt for Ingredients\nThe second round of Food Fiesta will have you channeling your inner detective as you\nembark on a culinary treasure hunt like no other. Armed with clues and a keen sense of\nadventure, you'll scour the event area in search of hidden ingredients. These ingredients\nare the keys to your culinary masterpiece in the final round, so every find counts. Get\nready to rummage, strategize, and work together with your team to uncover the hidden\nculinary treasures.\nRound 3: Culinary Challenge - Cook Without Gas\nThe grand finale of Food Fiesta is a culinary challenge that will test your creativity and\nresourcefulness. With the ingredients you've collected in the previous round, you'll have\nto prepare a delicious dish without using gas or traditional stovetops! Harness your inner\nchef and let your culinary imagination run wild as you figure out innovative ways to\nprepare your dish. Can you impress the judges and create a culinary masterpiece under\nthese unique constraints?",
+          "venue": "Audi front lawn",
+          "totalwinners": 2,
+          "type": "SOLO",
+          "maxparticipants": 25,
+          "title": "Get immersed in an atmosphere filled with excitement, friendly competition, and mouth-watering aromas. Whether you're a master chef or simply someone who loves to savour delicious food, Food Fiesta promises an unforgettable experience that blends knowledge, adventure, and culinary skills.",
+          "__v": 0
+          }
+          
+          ,
+          {
+          "isDiploma": false,
+          "event_type": "NORMAL",
+          "event_coordinator": [
+          {
+          "name": "Urmil Prajapati",
+          "phoneno": "7984639317"
+          },
+          {
+          "name": "Dhruv Vachani",
+          "phoneno": "7984910623"
+          }
+          ],
+          "participants": [],
+          "winner": [],
+          "attendance": [],
+          "isAvailable": true,
+          "noOfParticipants": 0,
+          "_id": "6523976ed716940d64ce4597",
+          "category": "Workshop",
+          "name": "Sensing the Future - An IoT Workshop",
+          "image": "https://imaze-bucket.s3.ap-south-1.amazonaws.com/imaze_static_images/iot.jpg",
+          "date": "11-12-2023",
+          "time": "10:00",
+          "maxparticipants": 120,
+          "price": 60,
+          "description": "An Internet of Things (IoT) based workshop is a hands-on learning event or training session that focuses on the principles, technologies, and applications of IoT. IoT refers to the interconnected network of physical objects or \"things\" that are embedded with sensors, software, and other technologies to collect and exchange data over the internet. The workshop is designed to provide participants with practical knowledge and skills related to IoT development and deployment.",
+          "venue": "B204",
+          "totalwinners": 0,
+          "type": "SOLO",
+          "title": "Imagine how amazing it is to bring intelligence to this built world! – IoT Innovate is the opportunity to execute this brilliance.",
+          "__v": 0
+          },
+          {
+          "isDiploma": false,
+          "event_type": "NORMAL",
+          "event_coordinator": [
+          {
+          "name": "Samarth Patel",
+          "phoneno": "7990363109"
+          },
+          {
+          "name": "Sania Pillai",
+          "phoneno": "9998315385"
+          }
+          ],
+          "participants": [
+          "65252039d5b4792b964c6ca0",
+          "65279f669219afc38504b011",
+          "65280272a06ff693c9821fdf",
+          "652925f6a06ff693c9830b39"
+          ],
+          "winner": [],
+          "attendance": [],
+          "isAvailable": true,
+          "noOfParticipants": 4,
+          "_id": "6523976ed716940d64ce4598",
+          "category": "Workshop",
+          "name": "Cosmos Colloquium",
+          "image": "https://imaze-bucket.s3.ap-south-1.amazonaws.com/imaze_static_images/Space_Talk.JPG",
+          "date": "11-12-2023",
+          "time": "14:00",
+          "maxparticipants": 300,
+          "price": 60,
+          "description": "This space talk workshop is a dynamic and educational gathering or session centered on diverse facets of space exploration, science, and technology. It includes presentations from authorities, scientists, engineers, or aficionados who impart their expertise and perspectives on space-related subjects to an attentive audience.",
+          "venue": "Auditorium",
+          "totalwinners": 0,
+          "type": "SOLO",
+          "title": "Earth serves as humanity's nurturing cradle, yet we must eventually venture beyond its confines. Beyond Earth welcomes all space enthusiasts to enrich their cosmic knowledge and exploration",
+          "__v": 0
+          },
+          {
+          "isDiploma": false,
+          "event_type": "NORMAL",
+          "event_coordinator": [
+          {
+          "name": "Ulugundam Sindhu Krishna",
+          "phoneno": "9106286232"
+          },
+          {
+          "name": "Kevin Modi",
+          "phoneno": "7226871308"
+          }
+          ],
+          "participants": [
+          "652553240a3b1f2f35360b36",
+          "65265ba29219afc38503e869",
+          "6527946d9219afc3850492ec",
+          "65265b999219afc38503e821",
+          "6527aed6a481a47c181e1b64",
+          "6527c381a481a47c181e3e7f",
+          "652794969219afc385049339",
+          "6528d7f1a06ff693c98296d1"
+          ],
+          "winner": [],
+          "attendance": [],
+          "isAvailable": true,
+          "noOfParticipants": 8,
+          "_id": "6523976ed716940d64ce459a",
+          "category": "Workshop",
+          "name": "Hacktivity",
+          "image": "https://imaze-bucket.s3.ap-south-1.amazonaws.com/imaze_static_images/Ethical_Hacking.JPG",
+          "date": "12-12-2023",
+          "time": "10:00",
+          "price": 60,
+          "description": "A workshop focused on ethical hacking that would serve as an educational event or training session meticulously crafted to instruct individuals in ethical hacking principles, methodologies, and optimal approaches.",
+          "venue": "B204",
+          "totalwinners": 0,
+          "maxparticipants": 120,
+          "type": "SOLO",
+          "title": "Security culture can achieve more than prohibition posture. Hack with Integrity is a workshop for all the technocrats rooting for cyber security.",
+          "__v": 0
+          },
+          {
+          "isDiploma": false,
+          "event_type": "NORMAL",
+          "event_coordinator": [
+          {
+          "name": "Darsh Bhatt",
+          "phoneno": "6358859356"
+          },
+          {
+          "name": "Abhishek Parekh",
+          "phoneno": "9313063224"
+          }
+          ],
+          "participants": [],
+          "winner": [],
+          "attendance": [],
+          "isAvailable": true,
+          "noOfParticipants": 0,
+          "_id": "6523976ed716940d64ce459b",
+          "category": "Workshop",
+          "name": "The Art of Auto Enhancement",
+          "image": "https://imaze-bucket.s3.ap-south-1.amazonaws.com/imaze_static_images/automobile.jpg",
+          "date": "12-12-2023",
+          "time": "14:00",
+          "price": 60,
+          "maxparticipants": 120,
+          "description": "A workshop for automobile enthusiasts. Whether you're a car enthusiast, a DIY mechanic, or simply curious about the inner workings of automobiles, this workshop is designed to cater to all levels of automotive interest.",
+          "venue": "Seminar and workshop",
+          "totalwinners": 0,
+          "type": "SOLO",
+          "title": "Automobiles are the artistic masterpieces that shape our daily existence. Prepare for an enthralling journey at Wheels of Wisdom, tailored for passionate gearheads",
+          "__v": 0
+          },
+          {
+          "isDiploma": false,
+          "event_type": "NORMAL",
+          "event_coordinator": [
+          {
+          "name": "Arpit Raval",
+          "phoneno": "8780272674"
+          },
+          {
+          "name": "Kevin Modi",
+          "phoneno": "7226871308"
+          }
+          ],
+          "participants": [],
+          "winner": [],
+          "attendance": [],
+          "isAvailable": true,
+          "noOfParticipants": 0,
+          "_id": "6523976ed716940d64ce4599",
+          "category": "Workshop",
+          "name": "Stellar Secrets Unveiled",
+          "image": "https://imaze-bucket.s3.ap-south-1.amazonaws.com/imaze_static_images/Star_Gazing.JPG",
+          "date": "11-12-2023",
+          "time": "18:00",
+          "price": 60,
+          "maxparticipants": 60,
+          "description": "A star gazing workshop is a captivating and informative gathering crafted to acquaint attendees with the marvels of the nighttime heavens and the skill of observing celestial phenomena. Typically conducted in locations with minimal light pollution, these workshops will ensure participants enjoy the finest celestial viewing encounters.",
+          "venue": "Mechatronics department terrace",
+          "totalwinners": 0,
+          "type": "SOLO",
+          "title": "Your passport to a world beyond our skies, where stars whisper secrets of the cosmos under the night's velvet embrace. Witness an enchanting stargazing event like no other.",
+          "__v": 0
+          },
+          {
+          "isDiploma": false,
+          "event_type": "NORMAL",
+          "event_coordinator": [
+          {
+          "name": "Neel Patel",
+          "phoneno": "7359266967"
+          },
+          {
+          "name": "Diya Patel",
+          "phoneno": "9328776614"
+          }
+          ],
+          "participants": [],
+          "winner": [],
+          "attendance": [],
+          "isAvailable": true,
+          "noOfParticipants": 0,
+          "_id": "6523976ed716940d64ce459c",
+          "category": "Workshop",
+          "name": "Beyond the Chip VLSI Exploration",
+          "image": "https://imaze-bucket.s3.ap-south-1.amazonaws.com/imaze_static_images/Verilog.JPG",
+          "date": "12-12-2023",
+          "time": "10:00",
+          "maxparticipants": 80,
+          "price": 60,
+          "title": "Step into the realm of integrated circuits with 'Beyond the Chip,' where we unravel the profound impact of ICs on the electronic industry.",
+          "venue": "F303",
+          "totalwinners": 0,
+          "type": "SOLO",
+          "description": "A Verilog software workshop is a specialized educational event or training program that teaches participants how to use Verilog, a hardware description language (HDL) used in the design and verification of digital circuits and systems.",
+          "__v": 0
+          },
+          {
+          "isDiploma": false,
+          "event_type": "NORMAL",
+          "event_coordinator": [
+          {
+          "name": "Dhruvit Gadhiya",
+          "phoneno": "9157873567"
+          },
+          {
+          "name": "Lisa Menpara",
+          "phoneno": "9054553000"
+          }
+          ],
+          "participants": [],
+          "winner": [],
+          "attendance": [],
+          "isAvailable": true,
+          "noOfParticipants": 0,
+          "_id": "6523976ed716940d64ce459d",
+          "category": "Workshop",
+          "name": "Sky Crafters Drone Making Workshop",
+          "image": "https://imaze-bucket.s3.ap-south-1.amazonaws.com/imaze_static_images/drone+master+class.jpg",
+          "date": "11-12-2023",
+          "time": "10:00",
+          "maxparticipants": 50,
+          "price": 80,
+          "title": "From Blueprint to Skyward Dance. Craft your very own Aerial Marvel. Conquer your tinkering skills with a hands-on drone-building workshop",
+          "venue": "Classroom",
+          "totalwinners": 0,
+          "type": "SOLO",
+          "description": "A drone building workshop to unleash inner innovation and creativity by designing your very own unmanned aerial vehicle. It involves the exploration of the world of drones and understanding and utilizing the knowledge to actually build a working model.",
+          "__v": 0
+          },
+          {
+          "isDiploma": true,
+          "event_type": "NORMAL",
+          "event_coordinator": [
+          {
+          "name": "Vishva Patel",
+          "phoneno": "8849324950"
+          },
+          {
+          "name": "Jafar Gangardiwala",
+          "phoneno": "8758486164"
+          }
+          ],
+          "participants": [
+          "652647ec9219afc38503d3b9",
+          "652648be9219afc38503d50c",
+          "652647bb9219afc38503d3b2"
+          ],
+          "winner": [],
+          "attendance": [],
+          "isAvailable": true,
+          "noOfParticipants": 3,
+          "_id": "6524099e06cb6126b85b4876",
+          "category": "Workshop",
+          "name": "STEM Carnival",
+          "image": "https://imaze-bucket.s3.ap-south-1.amazonaws.com/imaze_static_images/stem.jpg",
+          "date": " 12-12-2023",
+          "totalwinners": 0,
+          "time": "09:00",
+          "price": 60,
+          "description": " This workshop will be conducted by Mr. Alpesh Bhatt. The content of the workshop will consist of the topicsfrom\nthe syllabus of diploma students, for whom this workshop is being conducted.\n The main idea behind conducting this workshop is to clear the basic concepts of core engineering by demonstrating various STEM (Science Technology Engineering Mathematics) activities and experiments.\nAt the end of the workshop, kits will be provided to the attendees from which they can fabricate something on their own at their home. The model made by the students will be displayed in the exhibition taking place on the following day.Prizes will be awarded based on the models made by students.",
+          "venue": "A322",
+          "type": "SOLO",
+          "maxparticipants": 100,
+          "title": " Unlock engineering's essence at the STEM Carnival Workshop and dive into hands-on STEM activities, create, and win prizes!",
+          "__v": 0
+          },
+          {
+          "isDiploma": true,
+          "event_type": "NORMAL",
+          "event_coordinator": [
+          {
+          "name": "Vishva Patel",
+          "phoneno": "8849324950"
+          },
+          {
+          "name": "Jafar Gangardiwala",
+          "phoneno": "8758486164"
+          }
+          ],
+          "participants": [
+          "6525207ed5b4792b964c6d9a",
+          "6528209ca06ff693c98258e1",
+          "65267f149219afc385040a77",
+          "6528d954a06ff693c9829cac",
+          "6524fdef710f750837f78e00"
+          ],
+          "winner": [],
+          "attendance": [],
+          "isAvailable": true,
+          "noOfParticipants": 5,
+          "_id": "6524099e06cb6126b85b4877",
+          "category": "Workshop",
+          "name": "Math Magic – Unlocking Vedic Wisdom",
+          "image": "https://imaze-bucket.s3.ap-south-1.amazonaws.com/imaze_static_images/math_magic.jpg",
+          "date": "12-12-2023",
+          "time": "14:00",
+          "price": 60,
+          "description": "This workshop will be conducted by Mrs. Darshna. It will be focused on explaining various basics and fundamentals of Vedic Maths to the diploma students for fast and efficient calculations to increase their mathematical problem-solving skills.\nAs Vedic Maths is not taught as a main subject in most of the schools, This workshop will be something new and interesting for the students to learn from.",
+          "venue": "Seminar Hall",
+          "totalwinners": 0,
+          "type": "SOLO",
+          "maxparticipants": 100,
+          "title": " Discover the power of Vedic Maths with at the Math Magic Workshop and unlock efficient calculation techniques to amplify your problem-solving skills!",
+          "__v": 0
+          },
+          {
+          "isDiploma": true,
+          "event_type": "NORMAL",
+          "event_coordinator": [
+          {
+          "name": "Vishva Patel",
+          "phoneno": "8849324950"
+          },
+          {
+          "name": "Jafar Gangardiwala",
+          "phoneno": "8758486164"
+          }
+          ],
+          "participants": [
+          "652796799219afc385049afc"
+          ],
+          "winner": [],
+          "attendance": [],
+          "isAvailable": true,
+          "noOfParticipants": 1,
+          "_id": "6524099e06cb6126b85b4878",
+          "category": "Workshop",
+          "name": "Makerspace Mania",
+          "image": "https://imaze-bucket.s3.ap-south-1.amazonaws.com/imaze_static_images/makers_magic.jpg",
+          "date": "12-12-2023",
+          "time": "11:00",
+          "price": 60,
+          "description": "This workshop will be conducted by Mr. Viral Mistry.\n The workshop will consist of building models based on mathematical equations which will shed a light on the practical implementation of the equations learned in class thus sparking interest in the minds of students.Kits will be provided to the attendees so that they can have a hands-on experience of model making during the workshop. The models made by the students will be displayed in the exhibition taking place on the following day.",
+          "venue": "A322",
+          "totalwinners": 0,
+          "type": "SOLO",
+          "maxparticipants": 100,
+          "title": "Build models from math equations, and witness theoretical concepts spring into existence!",
+          "__v": 0
+          },
+          {
+          "isDiploma": false,
+          "event_type": "NORMAL",
+          "event_coordinator": [
+          {
+          "name": "Samarth Patel",
+          "phoneno": "799036109"
+          },
+          {
+          "name": "Sania Pillai",
+          "phoneno": "9998315385"
+          }
+          ],
+          "participants": [
+          "6527957c9219afc385049705",
+          "6526305590e709be95a5d30e",
+          "65250c69710f750837f7a699",
+          "65277bed9219afc3850475e7",
+          "65277b4f9219afc3850474c3",
+          "6524e2b7710f750837f715e5",
+          "652798509219afc38504a042",
+          "6528e5bea06ff693c982bdbd"
+          ],
+          "winner": [],
+          "attendance": [],
+          "isAvailable": true,
+          "noOfParticipants": 8,
+          "_id": "6524179faa49a2353023f5a2",
+          "category": "Workshop",
+          "name": "Advanced Concepts in Microsoft Excel",
+          "image": "https://imaze-bucket.s3.ap-south-1.amazonaws.com/imaze_static_images/iot.jpg",
+          "date": "12-12-2023",
+          "time": "10:00",
+          "maxparticipants": 120,
+          "price": 60,
+          "description": "Are you ready to take your Excel skills to the next level? \"Advanced Concepts in Microsoft Excel\" is a comprehensive workshop where you'll unlock the full potential of this powerful spreadsheet software. Whether you're a business professional, analyst, data enthusiast, or just looking to enhance your proficiency, this event is designed to elevate your Excel game.",
+          "venue": "Classroom",
+          "totalwinners": 0,
+          "type": "SOLO",
+          "title": "Unlock the secrets of data sorcery at 'Advanced Excel,' where spreadsheets become spells and formulas wield true magic!\"",
+          "__v": 0
+          }
+        
+          ,
+          {
+          "tokens": 60,
+          "category": "CULTURAL",
+          "event_type": "CULTURAL",
+          "event_coordinator": [
+          {
+          "name": "Gitel Panwar",
+          "phoneno": "9313497469"
+          },
+          {
+          "name": "Mihir Chavda",
+          "phoneno": "9408872393"
+          }
+          ],
+          "participants": [
+          "652508aa710f750837f7a140"
+          ],
+          "winner": [],
+          "isAvailable": true,
+          "noOfParticipants": 1,
+          "_id": "65239bb4eebd573f28594223",
+          "name": "Solo Dance",
+          "image": "https://imaze-bucket.s3.ap-south-1.amazonaws.com/imaze_static_images/Solo_Dance.JPG    ",
+          "date": "13-12-2023",
+          "time": "18:00",
+          "price": 50,
+          "description": "Dance to the rhythm of your soul, be it classical, semiclassical, hip-hop, break dance or a category you want to invent yourself.\nGeneral instructions:\nBring out your best performance - dance, sing, act and make the stage your spotlight. \n1. Round 1: auditions.\n   Round 2: Stage performance \n2. Minimum and maximum time limit for the performance shall be defined after the audition round.\n3. Minimum time to be performed for audition is 2 minutes. \n4. A rule book after the auditions shall be circulated. \n",
+          "venue": "Front lawn",
+          "totalwinners": 2,
+          "type": "SOLO",
+          "title": "Dance to the rhythm of your soul, be it classical, semiclassical, hip-hop, break dance or a category you want to invent yourself.",
+          "__v": 0
+          },
+          {
+          "tokens": 60,
+          "category": "CULTURAL",
+          "event_type": "CULTURAL",
+          "event_coordinator": [
+          {
+          "name": "Gitel Panwar",
+          "phoneno": "9313497469"
+          },
+          {
+          "name": "Mihir Chavda",
+          "phoneno": "9408872393"
+          }
+          ],
+          "participants": [],
+          "winner": [],
+          "isAvailable": true,
+          "noOfParticipants": 0,
+          "_id": "65239bb4eebd573f28594226",
+          "name": "Group Singing",
+          "image": "https://imaze-bucket.s3.ap-south-1.amazonaws.com/imaze_static_images/group+singing+(1).jpg",
+          "date": "13-12-2023",
+          "time": "18:00",
+          "price": 100,
+          "description": "Bring out your best group performance. \nGeneral instructions: \n1. Round 1: auditions.\n   Round 2: Stage performance \n2. Minimum and maximum time limit for the performance shall be defined after the audition round.\n3. Minimum time to be performed for audition is 2 minutes. \n4. A rule book after the auditions shall be circulated.",
+          "venue": "Front lawn",
+          "totalwinners": 2,
+          "type": "GROUP",
+          "min_members": 2,
+          "max_members": 6,
+          "title": "Entertain the audience with your best performance. Any dance style allowed- folk, Bollywood, semiclassical, do what your heart says. Minimum 2 and maximum 10 participants are allowed in a group.",
+          "__v": 0
+          },
+          {
+          "tokens": 60,
+          "category": "CULTURAL",
+          "event_type": "CULTURAL",
+          "event_coordinator": [
+          {
+          "name": "Gitel Panwar",
+          "phoneno": "9313497469"
+          },
+          {
+          "name": "Mihir Chavda",
+          "phoneno": "9408872393"
+          }
+          ],
+          "participants": [],
+          "winner": [],
+          "isAvailable": true,
+          "noOfParticipants": 0,
+          "_id": "65239bb4eebd573f28594225",
+          "name": "Instrumental",
+          "image": "https://imaze-bucket.s3.ap-south-1.amazonaws.com/imaze_static_images/Instrumental.JPG",
+          "date": "13-12-2023",
+          "time": "18:00",
+          "price": 50,
+          "description": "Display your proficiency with your preferred musical instrument, whether it's drums, guitar, flute, keyboard, harmonium, tabla, or any other of your choice. Remember to bring your own instrument with you.\nGeneral instructions: \n1. Round 1: auditions.\n   Round 2: Stage performance \n2. Minimum and maximum time limit for the performance shall be defined after the audition round.\n3. Minimum time to be performed for audition is 2 minutes. \n4. A rule book after the auditions shall be circulated.",
+          "venue": "Front lawn",
+          "totalwinners": 2,
+          "type": "SOLO",
+          "title": "Show the best instrument you can play. Drums, guitar, flute, keyboard, harmonium, tabla etc. You will have to bring your own instrument.",
+          "__v": 0
+          },
+          {
+          "tokens": 60,
+          "category": "CULTURAL",
+          "event_type": "CULTURAL",
+          "event_coordinator": [
+          {
+          "name": "Gitel Panwar",
+          "phoneno": "9313497469"
+          },
+          {
+          "name": "Mihir Chavda",
+          "phoneno": "9408872393"
+          }
+          ],
+          "participants": [
+          "6526b1a09219afc385043015"
+          ],
+          "winner": [],
+          "isAvailable": true,
+          "noOfParticipants": 1,
+          "_id": "65239bb4eebd573f28594224",
+          "name": "Solo Singing",
+          "image": "https://imaze-bucket.s3.ap-south-1.amazonaws.com/imaze_static_images/solo+singing.jpg",
+          "date": "13-12-2023",
+          "time": "18:00",
+          "price": 50,
+          "description": "Sing your heart out, feel free to belt out your favorite song or even create a medley of tunes. It is preferred that you can sing along with karaoke tracks. However, if you'd like some musical accompaniment, you're welcome to have up to two additional performers join you.\nGeneral instructions: \n1. Round 1: auditions.\n   Round 2: Stage performance \n2. Minimum and maximum time limit for the performance shall be defined after the audition round.\n3. Minimum time to be performed for audition is 2 minutes. \n4. A rule book after the auditions shall be circulated.",
+          "venue": "Front lawn",
+          "totalwinners": 2,
+          "type": "SOLO",
+          "title": "Sing your heart out, you may choose one song, or sing medleys. It is preferred you sing on karaoke track. However if you want accompanists, maximum two accompanists will be permitted.",
+          "__v": 0
+          },
+          {
+          "tokens": 60,
+          "category": "CULTURAL",
+          "event_type": "CULTURAL",
+          "event_coordinator": [
+          {
+          "name": "Gitel Panwar",
+          "phoneno": "9313497469"
+          },
+          {
+          "name": "Mihir Chavda",
+          "phoneno": "9408872393"
+          }
+          ],
+          "participants": [
+          {
+          "team_name": "HSJ",
+          "team_leader": "652648be9219afc38503d50c",
+          "members": [
+          "652647ec9219afc38503d3b9",
+          "652647bb9219afc38503d3b2"
+          ],
+          "type": "CULTURAL"
+          }
+          ],
+          "winner": [],
+          "isAvailable": true,
+          "noOfParticipants": 1,
+          "_id": "65239bb4eebd573f28594227",
+          "name": "Group Dance",
+          "image": "https://imaze-bucket.s3.ap-south-1.amazonaws.com/imaze_static_images/Group_Dance.JPG",
+          "date": "13-12-2023",
+          "time": "18:00",
+          "price": 100,
+          "description": "Entertain the audience with your best performance. Any dance style allowed- folk, Bollywood, semiclassical, do what your heart says.\nGeneral instructions: \n1. Round 1: auditions.\n   Round 2: Stage performance \n2. Minimum and maximum time limit for the performance shall be defined after the audition round.\n3. Minimum time to be performed for audition is 2 minutes. \n4. A rule book after the auditions shall be circulated.",
+          "venue": "Front lawn",
+          "totalwinners": 2,
+          "type": "GROUP",
+          "min_members": 2,
+          "max_members": 10,
+          "title": "Entertain the audience with your best performance. Any dance style allowed- folk, Bollywood, semiclassical, do what your heart says. Minimum 2 and maximum 10 participants are allowed in a group.",
+          "__v": 0
+          },
+          {
+          "tokens": 60,
+          "category": "CULTURAL",
+          "event_type": "CULTURAL",
+          "event_coordinator": [
+          {
+          "name": "Gitel Panwar",
+          "phoneno": "9313497469"
+          },
+          {
+          "name": "Mihir Chavda",
+          "phoneno": "9408872393"
+          }
+          ],
+          "participants": [],
+          "winner": [],
+          "isAvailable": true,
+          "noOfParticipants": 0,
+          "_id": "65239bb4eebd573f28594228",
+          "name": "Scene-e-magic",
+          "image": "https://imaze-bucket.s3.ap-south-1.amazonaws.com/imaze_static_images/cinemagic.jpg",
+          "date": "13-12-2023",
+          "time": "18:00",
+          "price": 100,
+          "description": "Give your own dialogues to a movie scene and show your creativity.\nGeneral instructions: \n1. Round 1: auditions.\n   Round 2: Stage performance \n2. Minimum and maximum time limit for the performance shall be defined after the audition round.\n3. Minimum time to be performed for audition is 2 minutes. \n4. A rule book after the auditions shall be circulated.",
+          "venue": "Front lawn",
+          "totalwinners": 2,
+          "type": "GROUP",
+          "min_members": 2,
+          "max_members": 5,
+          "title": "Give your own dialogues to a movie scene and show your creativity. Minimum 2 and maximum 5 participants are allowed in the group. Do not use vulgar dialogues.",
+          "__v": 0
+          }
+          
+          ,
+          {
+          "event_type": "FLAGSHIP",
+          "tokens": 80,
+          "event_coordinator": [
+          {
+          "name": "Vishva Patel",
+          "phoneno": "8849324950"
+          },
+          {
+          "name": "Jafar Gangardiwala",
+          "phoneno": "8758486164"
+          }
+          ],
+          "participants": [],
+          "winner": [],
+          "attendance": [],
+          "isAvailable": true,
+          "noOfParticipants": 0,
+          "_id": "65239fff91a32b481c59bc8f",
+          "category": "ITK_toyothon",
+          "name": "Young Scientists Exhibit",
+          "image": "https://imaze-bucket.s3.ap-south-1.amazonaws.com/imaze_static_images/young_scientist.jpg",
+          "date": "13-12-2023",
+          "time": "11:00",
+          "price": 100,
+          "description": "It will be a model-making competition. The participants will have to make a model based on any one of the provided domains in teams of up to five students. The model is to be prepared 50–60% from home prior to the competition day.\nDomains to Choose From:\n   1) Technology and Engineering\n   2) Environmental Sustainability\n   3) Healthcare and Cleanliness\n   4) Mathematical modelling\nThe half-completed models are to be reported a week prior to the competition day for an evaluation round.\nPrizes will be awarded based on the novelty of the idea, clarity and details, feasibility and practicability, scale of impact, and future potential of the project.",
+          "venue": "Front Lawn",
+          "totalwinners": 3,
+          "type": "GROUP",
+          "maxparticipants": 25,
+          "min_members": 2,
+          "max_members": 5,
+          "title": "It's time to put your skills to the test! Gather your dream team of up to 5 talented students because you're about to dive into the Young Scientists' Exhibit. Your mission? Create an awe-inspiring project model from one of the exciting domains we've handpicked just for you.\nThink your project has what it takes to be a Winner? Well, it's time to find out! Our panel of expert judges will evaluate your creations with precision and care, and the most outstanding projects will be showered with amazing prizes.",
+          "__v": 0
+          },
+          {
+          "event_type": "FLAGSHIP",
+          "tokens": 80,
+          "event_coordinator": [
+          {
+          "name": "Vishva Patel",
+          "phoneno": "8849324950"
+          },
+          {
+          "name": "Jafar Gangardiwala",
+          "phoneno": "8758486164"
+          }
+          ],
+          "participants": [
+          {
+          "team_name": "Fab Makers",
+          "team_leader": "6524eb94710f750837f74848",
+          "members": [
+          "6524f7c8710f750837f77f59"
+          ],
+          "type": "FLAGSHIP"
+          }
+          ],
+          "winner": [],
+          "attendance": [],
+          "isAvailable": true,
+          "noOfParticipants": 1,
+          "_id": "65239fff91a32b481c59bc90",
+          "category": "ITK_toyothon",
+          "name": "Trash to Treasure",
+          "image": "https://imaze-bucket.s3.ap-south-1.amazonaws.com/imaze_static_images/trash_to_treasure.jpg",
+          "date": "14-12-2023",
+          "time": "12:00",
+          "price": 100,
+          "description": "It will be a best-out-of-waste competition. The participants will have to make a model mostly from scraps and waste material from home in teams of up to four students and display it at the venue assigned.\nThe whole model is to be made at home. Teams will have to explain the purpose of the model and the materials used in making it.\nPrizes will be awarded based on the evaluation done by the judges of the competition\n",
+          "venue": "A322",
+          "totalwinners": 3,
+          "type": "GROUP",
+          "maxparticipants": 25,
+          "min_members": 1,
+          "max_members": 4,
+          "title": "Presenting the Spectacular \"Trash to Treasure\" Extravaganza! Unleash your creativity and transform trash into treasure at our one-of-a-kind competition! Join us for a thrilling competition that will redefine your perspective on waste materials.\nGather your squad of up to 4 brilliant minds because you're about to dive into the Best Out of Waste Showcase. Your mission? Craft a mind-blowing model using scraps and waste materials you can find right at home. From discarded cardboard to old newspapers, from broken toys to forgotten buttons - every item holds the potential to become a work of art!\nPrizes await that will make you proud of your eco-friendly accomplishments. From sustainable goodies to recognition that will inspire you to keep up the green spirit, your team could be leaving with fantastic rewards.",
+          "__v": 0
+          }
+          
+          ,
+          {
+          "event_type": "FLAGSHIP",
+          "tokens": 80,
+          "event_coordinator": [
+          {
+          "name": "Skandha Trivedi",
+          "phoneno": "8851383177"
+          },
+          {
+          "name": "Keya Shah",
+          "phoneno": "8849992830"
+          }
+          ],
+          "participants": [],
+          "winner": [],
+          "attendance": [],
+          "isAvailable": true,
+          "noOfParticipants": 0,
+          "_id": "6523a04791a32b481c59bc97",
+          "category": "Ideathon",
+          "name": "Pitch Power",
+          "image": "https://imaze-bucket.s3.ap-south-1.amazonaws.com/imaze_static_images/pitch_power.jpg",
+          "date": "13-12-2023",
+          "time": "11:00",
+          "price": 200,
+          "description": "This is a 1-day/2-day event comprising of two rounds. Pitch Power is an engaging event that offers participants the opportunity to present their innovative concepts within a team setting. The event structure involves teams collaborating to convey their creative ideas effectively. Each team presents a detailed description of their concept, providing a comprehensive overview of what it entails and highlighting its unique and valuable aspects. This event resembles a friendly competition, where teams aim to persuade the audience of the merits of their respective ideas. It encourages participants to articulate their innovative thoughts clearly and persuasively, fostering an environment of creativity and collaboration.\n• General Guidelines:\n1. Teams may consist of 2-5 members. [Maximum of 5 members]\n2. Participants must upload Poster (Portrait) while registering and bring hardcopy of the same poster of A1 size on the day of event.\n• Round 1:\n  Teams will bring up their creative ideas along with posters of A1 size in portrait form. Elimination will be based on the following main criteria: (Top teams will be selected).\n  a. Innovation - How 'innovative' is the idea? Is this idea creative and progressive?\n  b. Feasibility of Implementation - How feasible is the idea? How can it be executed?\n  c. Sustainability - How sustainable is the idea? Is this idea cost-effective?\n  d. Impact - How does this idea raise awareness for diverse or vulnerable populations? In a range of social conditions?\n• Round 2:\n  There will be a PPT making and presentation along with a question answer round where the teams will be judged based on their creativity level along with their understanding and presentation of the concept used in the presentation.\n",
+          "venue": "Lawn 1",
+          "totalwinners": 2,
+          "type": "GROUP",
+          "min_members": 2,
+          "max_members": 5,
+          "maxparticipants": 30,
+          "title": "Ideathon offers a platform where multidisciplinary challenges converge with innovative solutions. Visionary concepts evolve into tangible implementations.",
+          "__v": 0
+          },
+          {
+          "event_type": "FLAGSHIP",
+          "tokens": 80,
+          "event_coordinator": [
+          {
+          "name": "Skandha Trivedi",
+          "phoneno": "8851383177"
+          },
+          {
+          "name": "Keya Shah",
+          "phoneno": "8849992830"
+          }
+          ],
+          "participants": [],
+          "winner": [],
+          "attendance": [],
+          "isAvailable": true,
+          "noOfParticipants": 0,
+          "_id": "6523a04791a32b481c59bc98",
+          "category": "Ideathon",
+          "name": "Prototyping Challenge",
+          "image": "https://imaze-bucket.s3.ap-south-1.amazonaws.com/imaze_static_images/prototyping_challenge.jpg",
+          "date": "13-12-2023",
+          "time": "14:00",
+          "price": 200,
+          "description": "It is a 2-day event. During this event, each team presents their tangible prototypes, explaining the purpose and features of their creation. The focus is on demonstrating the practicality and uniqueness of the prototype. A panel of experienced judges assesses each prototype and offers precise modifications and improvements to optimize their designs. It's a platform that fosters innovation and the development of practical solutions through constructive modifications.\n• General Guidelines:\n1. Teams may consist of 2–5 members. [Maximum of 5]\n2. The teams themselves must provide all hardware components. Even for edits, hardware will not be provided\n3. Participants must upload a Poster (Portrait) while registering and bring a hard copy of the same poster of A1 size on the day of the event.\n4. There is no specific domain for the prototype; student innovation is encouraged.\n• Round 1:\n1. In this round, teams will present their prototypes to judges. They will provide challenging\nmodifications to the prototype, the team has to modify and code in a given time.\n2. 15 teams will be selected for round 2.\n• Round 2:\n1. Qualified teams will have to prepare a PowerPoint presentation and present it. The judgment will be based on the presentation and modifications implemented in the\nprototype. The judges will announce the results at the end of the 2-day event.\n",
+          "venue": "Lawn 1",
+          "totalwinners": 2,
+          "type": "GROUP",
+          "min_members": 2,
+          "max_members": 5,
+          "maxparticipants": 20,
+          "title": "Ideathon offers a platform where multidisciplinary challenges converge with innovative solutions. Visionary concepts evolve into tangible implementations.",
+          "__v": 0
+          }
+          ,
+          {
+          "event_type": "FLAGSHIP",
+          "tokens": 80,
+          "event_coordinator": [
+          {
+          "name": "Maitry Dhaduk",
+          "phoneno": "9824658433"
+          },
+          {
+          "name": "Samay Jain",
+          "phoneno": "6351004611"
+          }
+          ],
+          "participants": [
+          "6524e7d6710f750837f730dd",
+          "6524df44710f750837f70bfd",
+          "6524eb63710f750837f7452f",
+          "6524dfd9710f750837f70d57",
+          "65255e840a3b1f2f35361c88",
+          "6524fdef710f750837f78e00",
+          "652596a26b97ed6d00af3e12",
+          "6524f05c710f750837f763ed",
+          "6524dcf90838e7d6d34eae77",
+          "65251a1c710f750837f7c00e",
+          "65267f149219afc385040a77",
+          "65255a0b0a3b1f2f3536161a",
+          "6524e47c710f750837f7204e",
+          "652528150a3b1f2f3535b354",
+          "652794969219afc385049339",
+          "6527946d9219afc3850492ec",
+          "652553240a3b1f2f35360b36",
+          "65265ba29219afc38503e869",
+          "6525800f0a3b1f2f353645b8",
+          "6524e855710f750837f732dd",
+          "65291540a06ff693c98304ba"
+          ],
+          "winner": [],
+          "attendance": [],
+          "isAvailable": true,
+          "noOfParticipants": 21,
+          "_id": "6523a0eb91a32b481c59bc9b",
+          "category": "ITK_sa",
+          "name": "CPR Training Workshop - Save Lives with Your Hands",
+          "image": "https://imaze-bucket.s3.ap-south-1.amazonaws.com/imaze_static_images/CPR.jpeg",
+          "date": "11-12-2023",
+          "time": "14:00",
+          "price": 0,
+          "description": "GCET students can look forward to a thorough, practical CPR training program right on campus. This program boasts AED guidance, hands-on training led by certified instructors, and a certification card upon completion. Participants will not only gain hands-on AED experience but also master CPR essentials.\nAdditionally, a Q&A session will be available to address any inquiries related to CPR, first aid, or emergency response. The course's ultimate goal is to empower students with life-saving skills for handling emergencies in various settings, be it at home, on the streets, or in the workplace, thereby enhancing campus safety.\n",
+          "venue": "A107",
+          "totalwinners": 0,
+          "type": "SOLO",
+          "maxparticipants": 1000,
+          "title": "Engage in our CPR training workshop and harness the ability to rescue lives. Enhance your expertise and achieve campus certification as a life-saving hero.",
+          "__v": 0
+          },
+          {
+          "event_type": "FLAGSHIP",
+          "tokens": 80,
+          "event_coordinator": [
+          {
+          "name": "Maitry Dhaduk",
+          "phoneno": "9824658433"
+          },
+          {
+          "name": "Samay Jain",
+          "phoneno": "6351004611"
+          }
+          ],
+          "participants": [],
+          "winner": [],
+          "attendance": [],
+          "isAvailable": true,
+          "noOfParticipants": 0,
+          "_id": "6523a0eb91a32b481c59bc9c",
+          "category": "ITK_sa",
+          "name": "Donation Drive",
+          "image": "https://imaze-bucket.s3.ap-south-1.amazonaws.com/imaze_static_images/donation.jpg",
+          "date": "13-12-2023",
+          "time": "11:00",
+          "price": -1,
+          "description": "Be a part of this charitable effort by contributing a variety of items, including clothing, blankets, school supplies, and more. We encourage active participation, and drop-off locations have been designated for your convenience. Your generosity directly supports individuals in need, and your donations will be channeled to reputable local charities.\nAs a token of gratitude, thank-you cards will be distributed to express our appreciation, with a strong commitment to transparency and accountability. We extend a warm welcome to everyone to take part in this initiative, knowing that your contributions will significantly impact the lives of your neighbors.\n",
+          "venue": "Near Computer Department",
+          "totalwinners": 0,
+          "type": "SOLO",
+          "maxparticipants": 1000,
+          "title": "Unlock the power of giving and join us in making a world of difference, one act of kindness at a time, as we spread love, support, and positivity",
+          "__v": 0
+          },
+          {
+          "event_type": "FLAGSHIP",
+          "tokens": 80,
+          "event_coordinator": [
+          {
+          "name": "Maitry Dhaduk",
+          "phoneno": "9824658433"
+          },
+          {
+          "name": "Samay Jain",
+          "phoneno": "6351004611"
+          }
+          ],
+          "participants": [
+          "6524eb63710f750837f7452f",
+          "6524dfd9710f750837f70d57",
+          "65250837710f750837f7a062",
+          "65255e840a3b1f2f35361c88",
+          "652596a26b97ed6d00af3e12",
+          "6524f05c710f750837f763ed",
+          "6524fdef710f750837f78e00",
+          "6524d7590838e7d6d34ea474",
+          "65251a1c710f750837f7c00e",
+          "6526297e6b97ed6d00af7ff9",
+          "65267f149219afc385040a77",
+          "65255a0b0a3b1f2f3536161a",
+          "6524e47c710f750837f7204e",
+          "652529880a3b1f2f3535b92f",
+          "6527946d9219afc3850492ec",
+          "652794969219afc385049339",
+          "652553240a3b1f2f35360b36",
+          "65265ba29219afc38503e869",
+          "6525800f0a3b1f2f353645b8",
+          "6524ebc1710f750837f74c5b",
+          "6524dee2710f750837f70b31",
+          "6524e855710f750837f732dd",
+          "6529027fa06ff693c982f58b",
+          "65279fab9219afc38504b073"
+          ],
+          "winner": [],
+          "attendance": [],
+          "isAvailable": true,
+          "noOfParticipants": 24,
+          "_id": "6523a0eb91a32b481c59bc9e",
+          "category": "ITK_sa",
+          "name": "Walkathon",
+          "image": "https://imaze-bucket.s3.ap-south-1.amazonaws.com/imaze_static_images/walkathon.JPG",
+          "date": "11-12-2023",
+          "time": "9:00",
+          "price": 0,
+          "description": "Step into action alongside the GCET community in our 'Steps for a Greener Tomorrow' walkathon, dedicated to promoting environmental awareness and sustainability. This event includes a purposeful and scenic walk, an opportunity to connect with fellow advocates, and fundraising for organizations committed to addressing these concerns.\nThis 1.5-hour walkathon is open to all members of the GCET community, with free registration and an invitation to contribute donations in support of the cause. Join us as we encourage individuals to take strides toward securing a greener future for everyone.\n",
+          "venue": "Near Mechatronics Building",
+          "totalwinners": 0,
+          "type": "SOLO",
+          "maxparticipants": 1000,
+          "title": "Get ready to step into change! Participate in the GCET Walkathon for Social Awareness and take strides towards a more compassionate and sustainable future.",
+          "__v": 0
+          },
+          {
+          "event_type": "FLAGSHIP",
+          "tokens": 80,
+          "event_coordinator": [
+          {
+          "name": "Maitry Dhaduk",
+          "phoneno": "9824658433"
+          },
+          {
+          "name": "Samay Jain",
+          "phoneno": "6351004611"
+          }
+          ],
+          "participants": [],
+          "winner": [],
+          "attendance": [],
+          "isAvailable": true,
+          "noOfParticipants": 0,
+          "_id": "6523a0eb91a32b481c59bc9d",
+          "category": "ITK_sa",
+          "name": "Nukkad Natak",
+          "image": "https://imaze-bucket.s3.ap-south-1.amazonaws.com/imaze_static_images/Nukkad+Natak.JPG",
+          "date": "12-12-2023",
+          "time": "19:00",
+          "price": -1,
+          "description": "'Chalo Mobile No Upvaas Karye' is a captivating street play on college campus that aims to address mobile addiction through drama, humor, and meaningful storytelling. The performance features relatable scenarios, eye-opening moments, practical tips for a healthier balance, community support, and a pledge for change.\n The event is free and open to all college students, faculty, and staff members, with a total duration of 30 minutes. The performance encourages attendees to take small steps towards reducing mobile addiction and prioritizing their well-being.\n",
+          "venue": "Near Auditorium",
+          "totalwinners": 0,
+          "type": "SOLO",
+          "maxparticipants": 1000,
+          "title": "Embark on a transformative journey through our college campus with 'Chalo Mobile No Upvaas Karye,' an engaging street play addressing the issue of mobile addiction.",
+          "__v": 0
+          }
+          ,
+          {
+          "event_type": "FLAGSHIP",
+          "tokens": 80,
+          "event_coordinator": [
+          {
+          "name": "Vishva Patel",
+          "phoneno": "8849324950"
+          },
+          {
+          "name": "Jafar Gangardiwala",
+          "phoneno": "8758486164"
+          }
+          ],
+          "participants": [],
+          "winner": [],
+          "attendance": [],
+          "isAvailable": true,
+          "noOfParticipants": 0,
+          "_id": "6523a1dd91a32b481c59bca5",
+          "category": "ITK_exhibition",
+          "name": "Heritage and Innovation Expo",
+          "image": "https://imaze-bucket.s3.ap-south-1.amazonaws.com/imaze_static_images/exhibition.jpg",
+          "date": "13-12-2023",
+          "time": "11:00",
+          "totalwinners": 0,
+          "price": -1,
+          "description": "Experience the fusion of tradition and technology at the Heritage and Innovation Exhibition – where the past inspires the future.\ndescription:\nThis exhibition will have a touch of both, Technology and Tradition.\n1. Vikram Sarabhai Community Centre Models: Small Scale Technological Models will be displayed during the exhibition so that school students can watch, learn, and develop interest in the field of engineering.\n2. Models from the Workshops Conducted on the previous day: The models made by the students during and after the workshops, will be displayed in the exhibition to showcase the things that are possible to be built from such low budget items.\n3. Students Skill Art: The art created by the students of GCET will be displayed to provide them with recognition and inspire students to pursue their interests along with studies.\n4. Professional Traditional Skill Display: A stall simply dedicated to showcase a traditional professional skill rekindling the essence of Indian tradition and culture.\n",
+          "venue": "Front lawn",
+          "type": "SOLO",
+          "maxparticipants": 100,
+          "title": "Experience the fusion of tradition and technology at the Heritage and Innovation Exhibition – where the past inspires the future.",
+          "__v": 0
+          }
+        ,
+          {
+          "event_type": "FLAGSHIP",
+          "tokens": 80,
+          "event_coordinator": [
+          {
+          "name": "Jhanvi Shukla",
+          "phoneno": "9824335460"
+          },
+          {
+          "name": "Tisha Patel",
+          "phoneno": "8200640083"
+          },
+          {
+          "name": "Hiren Dhankecha",
+          "phoneno": "7990914199"
+          }
+          ],
+          "participants": [],
+          "winner": [],
+          "attendance": [],
+          "isAvailable": true,
+          "noOfParticipants": 0,
+          "_id": "6523a1f091a32b481c59bcac",
+          "category": "HappyStreet",
+          "name": "Nukkad Carnival",
+          "image": "https://imaze-bucket.s3.ap-south-1.amazonaws.com/imaze_static_images/fun_street.jpg",
+          "date": "12-12-2023",
+          "totalwinners": 0,
+          "time": "18:00",
+          "price": -2,
+          "description": "This event provides the opportunity for participants to revisit the cherished games of their childhood.With a delightful mix of 14 games, including classics like langdi, draw at the back, and chain hula hoop,the participants can relive the joy of simpler times. Seven of these games are accessible using tokens,while the other seven are free to play. In addition to this delightful journey into nostalgia, this event provides other diverse offerings, including a delectable food stall, an engaging arts and crafts section,the rhythms of Zumba, and the soothing melodies of an orchestra",
+          "venue": "Near Auditorium",
+          "type": "SOLO",
+          "maxparticipants": -1,
+          "title": "Join us to regain the wonderful memories of your childhood by becoming part of amazing and joyful games",
+          "__v": 0
+          }
+          
+          
+          
+
+          
+        ];
+async function fetch_event(event_id){
+  console.log("object")
+  const event = jsonData.find(item => item._id === event_id);
+const eventName = event.name;
+console.log("object")
+console.log(eventName)
+const eventDescription = event.description;
+const section = document.querySelector(".scrollable-content");
+          let html_string =  `
+            <h1 class="title" align="center">${event.name}</h1>
+              <div class="space">
+              
+                <p style="margin-top: 3px; text-align: justify; margin: 0 25px; font-size: 17px;">
+                 ${event.description}
+                  
+                </p>
+                  
+              </div>
+          `
+          section.innerHTML= html_string;
+}
+
+fetch_event(event_id);
+
+
+  </script>
+     <!-- <script async>
+      async function fetch_data() {
+  
+           let data = await fetch(
+          "../api.json"
+          );
+        let resp = await data.json();
+       return resp.data;
+      }
+        let current_url  = window.location.href;
+        let event_id = current_url.split('?')[1];
+        async function fetch_event(event_id){
+          var resp = await fetch(`http://3.109.100.118:8000/api/v1/user/events/${event_id}?type=NORMAL`)
+          var data = await resp.json();
+          let event = data.data;
+          if(event === undefined){
+            resp =  await fetch(`http://3.109.100.118:8000/api/v1/user/events/${event_id}?type=FLAGSHIP`)
+            data = await resp.json();
+            event = data.data;
+          }
+          console.log("event:",resp);
+          const section = document.querySelector(".scrollable-content");
+          let html_string =  `
+            <h1 class="title" align="center">${event.name}</h1>
+              <div class="space">
+              
+                <p style="margin-top: 3px; text-align: justify; margin: 0 25px; font-size: 17px;">
+                 ${event.description}
+                  
+                </p>
+                  
+              </div>
+          `
+          section.innerHTML= html_string;
+        }
+        fetch_event(event_id);
+     </script> -->
+</body>
+</html>
